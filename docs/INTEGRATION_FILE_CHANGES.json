@@ -1,0 +1,739 @@
+{
+  "added": 111,
+  "modified": 1,
+  "deleted": 35,
+  "changes": [
+    {
+      "status": "D",
+      "path": ".env"
+    },
+    {
+      "status": "A",
+      "path": ".env.example"
+    },
+    {
+      "status": "A",
+      "path": ".gitignore"
+    },
+    {
+      "status": "D",
+      "path": ".idea/.name"
+    },
+    {
+      "status": "D",
+      "path": ".idea/GarmentReferenceChatbot.iml"
+    },
+    {
+      "status": "D",
+      "path": ".idea/inspectionProfiles/profiles_settings.xml"
+    },
+    {
+      "status": "D",
+      "path": ".idea/misc.xml"
+    },
+    {
+      "status": "D",
+      "path": ".idea/modules.xml"
+    },
+    {
+      "status": "D",
+      "path": ".idea/vcs.xml"
+    },
+    {
+      "status": "D",
+      "path": ".idea/workspace.xml"
+    },
+    {
+      "status": "D",
+      "path": "Credentials/qdrant"
+    },
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "D",
+      "path": "SKILL.md"
+    },
+    {
+      "status": "A",
+      "path": "backend/API.md"
+    },
+    {
+      "status": "A",
+      "path": "backend/SKILL.md"
+    },
+    {
+      "status": "A",
+      "path": "backend/api.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/chatbot.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/data/products.csv"
+    },
+    {
+      "status": "A",
+      "path": "backend/data/products.json"
+    },
+    {
+      "status": "A",
+      "path": "backend/data/samples/sample_tshirt_schema.json"
+    },
+    {
+      "status": "A",
+      "path": "backend/other_tools/convert_to_json.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/other_tools/image_metadata.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/requirements-api-test.txt"
+    },
+    {
+      "status": "A",
+      "path": "backend/requirements.txt"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_hybrid_image_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_image_context.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_image_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_image_text.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_pagination.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/scripts/validate_result_count.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/__init__.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/asset_paths.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/conversation_context.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/extract_embeding.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/hybrid_image_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/image_messages.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/image_reference.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/image_upload.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/ingest_product.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/json_size_limit.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/product_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/qdrant_connection.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/query_attribute_extractor.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/result_count.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/search_state.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/src/zero_shot_classifier.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_api.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_chatbot_results.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_extraction_robustness.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_hybrid_image_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_image_api.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_image_context.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_image_search.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_image_text.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_pagination.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_repository_layout.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_result_count.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/tests/test_unified_modes.py"
+    },
+    {
+      "status": "A",
+      "path": "backend/validation/.gitkeep"
+    },
+    {
+      "status": "D",
+      "path": "chatbot.py"
+    },
+    {
+      "status": "A",
+      "path": "docs/ARCHITECTURE.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/CATALOG_ASSET_MANIFEST.csv"
+    },
+    {
+      "status": "A",
+      "path": "docs/CATALOG_ASSET_SUMMARY.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/DATASET_ASSETS.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/DEPLOYMENT_NOTES.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/GITHUB_RELEASE_CHECKLIST.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/HANDOVER.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/INTEGRATION_DELETIONS.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/INTEGRATION_FILE_CHANGES.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/INTEGRATION_PR_DESCRIPTION.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/INTEGRATION_REPORT.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/INTEGRATION_TREE.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/RELEASE_CHANGES.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/RELEASE_FILE_MANIFEST.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/TESTED_VERSIONS.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/DYNAMIC_RESULT_COUNT.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/FRONTEND_UI_CLEANUP.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/FULL_CONTEXT_PAGINATION.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/PERSISTENT_IMAGE_CONTEXT.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/UNIFIED_SEARCH_MODES.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/VOICE_VALIDATION.md"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/backend-tests.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/frontend-tests.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/integration-backend-tests.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/integration-frontend-tests.txt"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/integration-validation.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/release-security.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/release-smoke.json"
+    },
+    {
+      "status": "A",
+      "path": "docs/validation/release-validation.json"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/EVALUATION_REPORT.md"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/README.md"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/ablation.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/annotations.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/calculate_metrics.py"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/failure_cases.md"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/metrics.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/queries.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/results.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/run_evaluation.py"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/run_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/runs.csv"
+    },
+    {
+      "status": "A",
+      "path": "evaluation/summary.csv"
+    },
+    {
+      "status": "A",
+      "path": "frontend/app.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/config.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/context.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/context.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/image-context.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/image-search.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/index.html"
+    },
+    {
+      "status": "A",
+      "path": "frontend/package.json"
+    },
+    {
+      "status": "A",
+      "path": "frontend/pagination.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/presentation.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/presentation.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/products.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/products.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/search.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/search.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/state.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/state.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/styles.css"
+    },
+    {
+      "status": "A",
+      "path": "frontend/voice-app.test.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/voice.js"
+    },
+    {
+      "status": "A",
+      "path": "frontend/voice.test.js"
+    },
+    {
+      "status": "D",
+      "path": "other_tools/convert_to_json.py"
+    },
+    {
+      "status": "D",
+      "path": "other_tools/image_metadata.py"
+    },
+    {
+      "status": "D",
+      "path": "requirements.txt"
+    },
+    {
+      "status": "D",
+      "path": "src/__init__.py"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/__init__.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/__init__.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/extract_embeding.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/extract_embeding.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/product_search.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/qdrant_connection.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/qdrant_connection.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/query_attribute_extractor.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/zero_shot_classifier.cpython-310.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/__pycache__/zero_shot_classifier.cpython-313.pyc"
+    },
+    {
+      "status": "D",
+      "path": "src/extract_embeding.py"
+    },
+    {
+      "status": "D",
+      "path": "src/ingest_product.py"
+    },
+    {
+      "status": "D",
+      "path": "src/product_search.py"
+    },
+    {
+      "status": "D",
+      "path": "src/qdrant_connection.py"
+    },
+    {
+      "status": "D",
+      "path": "src/query_attribute_extractor.py"
+    },
+    {
+      "status": "D",
+      "path": "src/zero_shot_classifier.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_product_search_wo_llm.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_qdrant.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/test_vector_search.py"
+    },
+    {
+      "status": "D",
+      "path": "tests/tests_attr_extract.py"
+    }
+  ],
+  "recognized_renames": [
+    "D\t.env",
+    "A\t.env.example",
+    "A\t.gitignore",
+    "D\t.idea/.name",
+    "D\t.idea/GarmentReferenceChatbot.iml",
+    "D\t.idea/inspectionProfiles/profiles_settings.xml",
+    "D\t.idea/misc.xml",
+    "D\t.idea/modules.xml",
+    "D\t.idea/vcs.xml",
+    "D\t.idea/workspace.xml",
+    "D\tCredentials/qdrant",
+    "M\tREADME.md",
+    "D\tSKILL.md",
+    "A\tbackend/API.md",
+    "A\tbackend/SKILL.md",
+    "A\tbackend/api.py",
+    "A\tbackend/chatbot.py",
+    "A\tbackend/data/products.csv",
+    "A\tbackend/data/products.json",
+    "A\tbackend/data/samples/sample_tshirt_schema.json",
+    "R100\tother_tools/convert_to_json.py\tbackend/other_tools/convert_to_json.py",
+    "R100\tother_tools/image_metadata.py\tbackend/other_tools/image_metadata.py",
+    "A\tbackend/requirements-api-test.txt",
+    "R067\trequirements.txt\tbackend/requirements.txt",
+    "A\tbackend/scripts/validate_hybrid_image_search.py",
+    "A\tbackend/scripts/validate_image_context.py",
+    "A\tbackend/scripts/validate_image_search.py",
+    "A\tbackend/scripts/validate_image_text.py",
+    "A\tbackend/scripts/validate_pagination.py",
+    "A\tbackend/scripts/validate_result_count.py",
+    "R100\tsrc/__init__.py\tbackend/src/__init__.py",
+    "A\tbackend/src/asset_paths.py",
+    "A\tbackend/src/conversation_context.py",
+    "R089\tsrc/extract_embeding.py\tbackend/src/extract_embeding.py",
+    "A\tbackend/src/hybrid_image_search.py",
+    "A\tbackend/src/image_messages.py",
+    "A\tbackend/src/image_reference.py",
+    "A\tbackend/src/image_upload.py",
+    "R097\tsrc/ingest_product.py\tbackend/src/ingest_product.py",
+    "A\tbackend/src/json_size_limit.py",
+    "A\tbackend/src/product_search.py",
+    "R100\tsrc/qdrant_connection.py\tbackend/src/qdrant_connection.py",
+    "A\tbackend/src/query_attribute_extractor.py",
+    "A\tbackend/src/result_count.py",
+    "A\tbackend/src/search_state.py",
+    "R092\tsrc/zero_shot_classifier.py\tbackend/src/zero_shot_classifier.py",
+    "A\tbackend/tests/test_api.py",
+    "A\tbackend/tests/test_chatbot_results.py",
+    "A\tbackend/tests/test_extraction_robustness.py",
+    "A\tbackend/tests/test_hybrid_image_search.py",
+    "A\tbackend/tests/test_image_api.py",
+    "A\tbackend/tests/test_image_context.py",
+    "A\tbackend/tests/test_image_search.py",
+    "A\tbackend/tests/test_image_text.py",
+    "A\tbackend/tests/test_pagination.py",
+    "A\tbackend/tests/test_repository_layout.py",
+    "A\tbackend/tests/test_result_count.py",
+    "A\tbackend/tests/test_unified_modes.py",
+    "A\tbackend/validation/.gitkeep",
+    "D\tchatbot.py",
+    "A\tdocs/ARCHITECTURE.md",
+    "A\tdocs/CATALOG_ASSET_MANIFEST.csv",
+    "A\tdocs/CATALOG_ASSET_SUMMARY.json",
+    "A\tdocs/DATASET_ASSETS.md",
+    "A\tdocs/DEPLOYMENT_NOTES.md",
+    "A\tdocs/GITHUB_RELEASE_CHECKLIST.md",
+    "A\tdocs/HANDOVER.md",
+    "A\tdocs/INTEGRATION_DELETIONS.json",
+    "A\tdocs/INTEGRATION_FILE_CHANGES.json",
+    "A\tdocs/INTEGRATION_PR_DESCRIPTION.md",
+    "A\tdocs/INTEGRATION_REPORT.md",
+    "A\tdocs/INTEGRATION_TREE.txt",
+    "A\tdocs/RELEASE_CHANGES.md",
+    "A\tdocs/RELEASE_FILE_MANIFEST.json",
+    "A\tdocs/TESTED_VERSIONS.md",
+    "A\tdocs/validation/DYNAMIC_RESULT_COUNT.md",
+    "A\tdocs/validation/FRONTEND_UI_CLEANUP.md",
+    "A\tdocs/validation/FULL_CONTEXT_PAGINATION.md",
+    "A\tdocs/validation/PERSISTENT_IMAGE_CONTEXT.md",
+    "A\tdocs/validation/UNIFIED_SEARCH_MODES.md",
+    "A\tdocs/validation/VOICE_VALIDATION.md",
+    "A\tdocs/validation/backend-tests.txt",
+    "A\tdocs/validation/frontend-tests.txt",
+    "A\tdocs/validation/integration-backend-tests.txt",
+    "A\tdocs/validation/integration-frontend-tests.txt",
+    "A\tdocs/validation/integration-validation.json",
+    "A\tdocs/validation/release-security.json",
+    "A\tdocs/validation/release-smoke.json",
+    "A\tdocs/validation/release-validation.json",
+    "A\tevaluation/EVALUATION_REPORT.md",
+    "A\tevaluation/README.md",
+    "A\tevaluation/ablation.csv",
+    "A\tevaluation/annotations.csv",
+    "A\tevaluation/calculate_metrics.py",
+    "A\tevaluation/failure_cases.md",
+    "A\tevaluation/metrics.csv",
+    "A\tevaluation/queries.csv",
+    "A\tevaluation/results.csv",
+    "A\tevaluation/run_evaluation.py",
+    "A\tevaluation/run_manifest.json",
+    "A\tevaluation/runs.csv",
+    "A\tevaluation/summary.csv",
+    "A\tfrontend/app.js",
+    "A\tfrontend/config.js",
+    "A\tfrontend/context.js",
+    "A\tfrontend/context.test.js",
+    "A\tfrontend/image-context.test.js",
+    "A\tfrontend/image-search.test.js",
+    "A\tfrontend/index.html",
+    "A\tfrontend/package.json",
+    "A\tfrontend/pagination.test.js",
+    "A\tfrontend/presentation.js",
+    "A\tfrontend/presentation.test.js",
+    "A\tfrontend/products.js",
+    "A\tfrontend/products.test.js",
+    "A\tfrontend/search.js",
+    "A\tfrontend/search.test.js",
+    "A\tfrontend/state.js",
+    "A\tfrontend/state.test.js",
+    "A\tfrontend/styles.css",
+    "A\tfrontend/voice-app.test.js",
+    "A\tfrontend/voice.js",
+    "A\tfrontend/voice.test.js",
+    "D\tsrc/__pycache__/__init__.cpython-310.pyc",
+    "D\tsrc/__pycache__/__init__.cpython-313.pyc",
+    "D\tsrc/__pycache__/extract_embeding.cpython-310.pyc",
+    "D\tsrc/__pycache__/extract_embeding.cpython-313.pyc",
+    "D\tsrc/__pycache__/product_search.cpython-310.pyc",
+    "D\tsrc/__pycache__/qdrant_connection.cpython-310.pyc",
+    "D\tsrc/__pycache__/qdrant_connection.cpython-313.pyc",
+    "D\tsrc/__pycache__/query_attribute_extractor.cpython-310.pyc",
+    "D\tsrc/__pycache__/zero_shot_classifier.cpython-310.pyc",
+    "D\tsrc/__pycache__/zero_shot_classifier.cpython-313.pyc",
+    "D\tsrc/product_search.py",
+    "D\tsrc/query_attribute_extractor.py",
+    "D\ttests/test_product_search_wo_llm.py",
+    "D\ttests/test_qdrant.py",
+    "D\ttests/test_vector_search.py",
+    "D\ttests/tests_attr_extract.py"
+  ],
+  "catalog_index_blob_mode_path_identical_to_main": true,
+  "staged_catalog_diff_empty": true,
+  "complete_patch_files_reviewed": 147
+}

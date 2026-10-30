@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Find T-shirt inspiration in a simple conversation.">
+  <title>GARMENT</title>
+  <link rel="stylesheet" href="./styles.css?v=unified-modes-1">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-actions"><button id="open-history" class="icon-button" aria-label="Open chat history" aria-haspopup="dialog" aria-controls="history-drawer" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><span class="brand">GARMENT</span></div>
+      <div class="header-actions">
+        <button id="new-chat" class="icon-button" aria-label="New conversation" title="New conversation">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5H5v14h14v-7M14 5h5v5M10 14 19 5"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <section class="empty-state" aria-labelledby="welcome-title">
+        <h1 id="welcome-title">What kind of T-shirt are you looking for?</h1>
+      </section>
+      <main id="conversation" class="conversation" aria-label="Conversation" tabindex="-1" hidden>
+        <div id="messages" class="messages"></div>
+      </main>
+      <div class="composer-dock">
+        <form id="message-form" class="composer">
+          <div id="draft-attachments" class="attachments" hidden></div>
+          <label for="query" class="sr-only">Describe the T-shirt you are looking for</label>
+          <textarea id="query" name="query" rows="1" maxlength="500" placeholder="Describe a T-shirt…"></textarea>
+          <div class="composer-controls">
+            <div class="composer-tools"><div class="attach-control"><button id="attach" class="icon-button" type="button" aria-label="Add attachment" aria-expanded="false" aria-controls="attachment-menu">+</button><div id="attachment-menu" class="attachment-menu" hidden><button type="button" id="choose-image">Add image</button><p>One image + optional changes · 10 MiB max<br>JPEG, PNG or WebP.</p></div></div><fieldset class="modes">
+              <legend class="sr-only">Search mode</legend>
+              <label title="Text: choose Exact, Similar, or both. Image: existing attribute-guided policy."><input type="radio" name="mode" value="auto" checked><span>Auto</span></label>
+              <label title="Strict supported garment attributes, ranked by text or image similarity."><input type="radio" name="mode" value="exact"><span>Exact</span></label>
+              <label title="Text or image similarity. Explicit image text requirements still apply."><input type="radio" name="mode" value="similar"><span>Similar</span></label>
+            </fieldset></div>
+            <div class="composer-submit"><button id="voice-mode" class="voice-mode-button" type="button" aria-label="Voice Mode" aria-pressed="false">Voice Mode: Off</button><button id="microphone" class="icon-button microphone-button" type="button" aria-label="Start voice input" aria-pressed="false" aria-describedby="voice-status" title="Start voice input"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg></button><button id="send" class="send-button" type="submit" aria-label="Send message" title="Send message" disabled>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+            </button>
+            </div>
+          </div>
+          <p id="voice-status" class="inline-note voice-status" role="status" aria-live="polite" hidden></p>
+        <input id="file-input" type="file" accept=".jpg,.jpeg,.png,.webp" multiple hidden>
+          <p id="attachment-error" class="inline-note" role="status" hidden></p>
+        </form>
+        <p id="storage-error" class="inline-note" role="status" hidden></p>
+        <p class="sample-note">Send text or one image. Add changes such as “make it black” with your image.</p>
+      </div>
+    </div>
+  </div>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  <dialog id="history-drawer" aria-label="Chat history"><div class="drawer-header"><button id="drawer-new" class="new-chat-button">+ New chat</button><button id="close-history" class="icon-button" aria-label="Close history">×</button></div><nav id="history-list" aria-label="Previous conversations"></nav><p class="history-note">Saved in this browser.</p></dialog>
+  <script type="module" src="./app.js?v=frontend-cleanup-1"></script>
+</body>
+</html>

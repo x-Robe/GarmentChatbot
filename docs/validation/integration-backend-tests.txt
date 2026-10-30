@@ -1,0 +1,16 @@
+............Product tool exact_match_products failed (RuntimeError)
+.........GarmentAgent request failed (RuntimeError)
+......GarmentAgent initialization failed (RuntimeError)
+.GarmentAgent request failed (ValidationError)
+.............Image search failed (RuntimeError)
+...................Image search failed (RuntimeError)
+...........................Attribute extraction unavailable; preserving semantic query (JSONDecodeError)
+Attribute extraction unavailable; preserving semantic query (ValueError)
+Attribute extraction unavailable; preserving semantic query (ValueError)
+.Attribute extraction unavailable; preserving semantic query (BadRequestError)
+...........Product tool exact_match_products failed (RuntimeError)
+.............................................................
+----------------------------------------------------------------------
+Ran 160 tests in 0.914s
+
+OK

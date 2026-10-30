@@ -1,0 +1,32 @@
+# Private runtime configuration at any level; only templates are publishable
+.env
+.env.*
+!.env.example
+Credentials/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.idea/
+.DS_Store
+.Rhistory
+node_modules/
+.cache/
+*.safetensors
+*.pt
+*.pth
+# Authorized catalog assets are provisioned separately, not staged by default
+/backend/data/images/**/*
+
+
+# Fresh evaluation/debug runs are not the final study
+/evaluation/run_*/
+
+# Existing root catalog is tracked; preserve it. New asset additions require review.
+/data/images/**/*
+
+# Opt-in validation scripts may write local diagnostics here.
+/backend/validation/*
+!/backend/validation/.gitkeep

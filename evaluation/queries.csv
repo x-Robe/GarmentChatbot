@@ -1,0 +1,11 @@
+query_id,search_type,user_query,reference_image,mode,relevance_criteria,reviewed_by
+T1,text,Show me 5 black T-shirts.,,auto,The visible main garment is a black T-shirt.,
+T2,text,Show me 5 white graphic short-sleeve T-shirts.,,auto,White T-shirt with a visible graphic and short sleeves; all three requirements must hold.,project-owner-confirmation
+T3,text,Show me 5 Japanese streetwear graphic T-shirts.,,similar,Graphic T-shirt plausibly suitable for Japanese streetwear; judge visual style independently and record ambiguity in notes.,
+T4,text,Show me 5 red striped long-sleeve T-shirts.,,exact,Red-dominant striped T-shirt with long sleeves; all three requirements must hold.,
+I1,image,Find visually similar T-shirts.,data/images/tshirt/941.jpg,,Match the plain white short-sleeve single T-shirt appearance; ignore photographic background.,
+I2,image,Find visually similar T-shirts.,data/images/tshirt/635.jpg,,Match the black short-sleeve T-shirt with a prominent graphic; exact map artwork is not required.,
+I3,image,Find visually similar T-shirts.,data/images/tshirt/442.jpg,,Target the foreground muted-green plain short-sleeve T-shirt; do not require the whole multipack or background garments.,
+M1,image_text,make it black,data/images/tshirt/941.jpg,,Visible garment must be black; retain the plain short-sleeve reference appearance where possible.,
+M2,image_text,make it long sleeve,data/images/tshirt/941.jpg,,Visible garment must have long sleeves; retain the plain white reference appearance where possible.,
+M3,image_text,make it plain,data/images/tshirt/635.jpg,,Visible garment must be plain without a prominent graphic or logo; retain the dark short-sleeve reference appearance where possible.,

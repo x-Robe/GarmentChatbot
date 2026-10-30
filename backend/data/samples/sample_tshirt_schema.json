@@ -1,0 +1,70 @@
+{
+  "category": [
+    "t-shirt",
+    "polo t-shirt",
+    "tank top",
+    "crop top",
+    "henley t-shirt"
+  ],
+  "colors": [
+    "black",
+    "white",
+    "gray",
+    "red",
+    "blue",
+    "navy blue",
+    "green",
+    "yellow",
+    "pink",
+    "purple",
+    "brown",
+    "beige",
+    "orange",
+    "multicolor"
+  ],
+  "patterns": [
+    "plain",
+    "graphic",
+    "striped",
+    "checked",
+    "floral",
+    "printed",
+    "camouflage",
+    "tie-dye",
+    "polka dot",
+    "logo"
+  ],
+  "neckline": [
+    "crew neck",
+    "v-neck",
+    "scoop neck",
+    "round neck",
+    "polo collar",
+    "henley neck",
+    "mock neck",
+    "turtleneck"
+  ],
+  "sleeve": [
+    "sleeveless",
+    "cap sleeve",
+    "short sleeve",
+    "three-quarter sleeve",
+    "long sleeve"
+  ],
+  "style": [
+    "casual",
+    "streetwear",
+    "sportswear",
+    "smart casual",
+    "vintage",
+    "minimalist",
+    "oversized",
+    "regular fit",
+    "slim fit",
+    "athletic fit"
+  ],
+  "buttons": [
+    true,
+    false
+  ]
+}

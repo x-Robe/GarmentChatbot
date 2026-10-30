@@ -1,0 +1,15 @@
+torch
+transformers
+safetensors
+pillow
+pandas
+numpy
+qdrant-client
+tqdm
+fastapi
+pydantic>=2
+uvicorn
+python-dotenv
+openai
+sentence-transformers
+python-multipart

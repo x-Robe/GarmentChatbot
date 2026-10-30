@@ -1,0 +1,662 @@
+{
+  "source_files_copied": 82,
+  "entries": [
+    {
+      "original_relative_path": "frontend/index.html",
+      "release_relative_path": "frontend/index.html",
+      "original_sha256": "97cbfcd54cb14bd2222127ad4266a1d4249e18a7d0cc0ad001bc0a2bb91555aa",
+      "release_sha256": "97cbfcd54cb14bd2222127ad4266a1d4249e18a7d0cc0ad001bc0a2bb91555aa",
+      "release_bytes": 4809,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/app.js",
+      "release_relative_path": "frontend/app.js",
+      "original_sha256": "a035d1fec2e1ff619df14ea7d01fac6da5fc9c2f83ea0ee738a391ef80d04ecc",
+      "release_sha256": "a035d1fec2e1ff619df14ea7d01fac6da5fc9c2f83ea0ee738a391ef80d04ecc",
+      "release_bytes": 23373,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/config.js",
+      "release_relative_path": "frontend/config.js",
+      "original_sha256": "bed83e748a77c8a51f92c374d7cb3671eb13f61f3211e40dc7c732fad9514630",
+      "release_sha256": "bed83e748a77c8a51f92c374d7cb3671eb13f61f3211e40dc7c732fad9514630",
+      "release_bytes": 302,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/context.js",
+      "release_relative_path": "frontend/context.js",
+      "original_sha256": "3d9c2db1265511f499bbcb5430694fc1bf306bdc5147732a6d9f878f0d8699c7",
+      "release_sha256": "3d9c2db1265511f499bbcb5430694fc1bf306bdc5147732a6d9f878f0d8699c7",
+      "release_bytes": 2571,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/presentation.js",
+      "release_relative_path": "frontend/presentation.js",
+      "original_sha256": "6c6935d6486d92c07988f2940b4af9790d51afa64c2533db34cafb9eb5f0851b",
+      "release_sha256": "6c6935d6486d92c07988f2940b4af9790d51afa64c2533db34cafb9eb5f0851b",
+      "release_bytes": 1084,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/products.js",
+      "release_relative_path": "frontend/products.js",
+      "original_sha256": "1d1ee96e09084761d133011c71ac94e172585729b15d7055a05b960d0cf41be3",
+      "release_sha256": "1d1ee96e09084761d133011c71ac94e172585729b15d7055a05b960d0cf41be3",
+      "release_bytes": 5374,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/search.js",
+      "release_relative_path": "frontend/search.js",
+      "original_sha256": "a2bbd6effb330026a13a47c606ec7d67b33844801042db1e3c89f6b66a7c782a",
+      "release_sha256": "a2bbd6effb330026a13a47c606ec7d67b33844801042db1e3c89f6b66a7c782a",
+      "release_bytes": 6321,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/state.js",
+      "release_relative_path": "frontend/state.js",
+      "original_sha256": "1f8958e97015e52a7ba534819f83f0ceb4198ca6e3a67d7e00fec23ad4af40b6",
+      "release_sha256": "1f8958e97015e52a7ba534819f83f0ceb4198ca6e3a67d7e00fec23ad4af40b6",
+      "release_bytes": 8935,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/styles.css",
+      "release_relative_path": "frontend/styles.css",
+      "original_sha256": "ac2004930ab990a7af099a30dee898acc6f3fc76a6dc7f152e9870b1b4048087",
+      "release_sha256": "ac2004930ab990a7af099a30dee898acc6f3fc76a6dc7f152e9870b1b4048087",
+      "release_bytes": 13695,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/voice.js",
+      "release_relative_path": "frontend/voice.js",
+      "original_sha256": "3a746287c2cea51c655f62c395c1735c5fa9d219e244a8afe5682a26d6f24237",
+      "release_sha256": "3a746287c2cea51c655f62c395c1735c5fa9d219e244a8afe5682a26d6f24237",
+      "release_bytes": 7411,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/package.json",
+      "release_relative_path": "frontend/package.json",
+      "original_sha256": "5b143290876d22dc569e0c151efde33c21910f15ca86fda2dc55b29b2d64701f",
+      "release_sha256": "5b143290876d22dc569e0c151efde33c21910f15ca86fda2dc55b29b2d64701f",
+      "release_bytes": 117,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/context.test.js",
+      "release_relative_path": "frontend/context.test.js",
+      "original_sha256": "13da17ca4c60160feaf6b58c5f84c3abc0639b1a0e47b6479e34f09ac52f3db3",
+      "release_sha256": "13da17ca4c60160feaf6b58c5f84c3abc0639b1a0e47b6479e34f09ac52f3db3",
+      "release_bytes": 2262,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/image-context.test.js",
+      "release_relative_path": "frontend/image-context.test.js",
+      "original_sha256": "d6e7a912da58fc610dcb46b4ba196df0e78b8086dff01c69f0d63421dbb52193",
+      "release_sha256": "d6e7a912da58fc610dcb46b4ba196df0e78b8086dff01c69f0d63421dbb52193",
+      "release_bytes": 5881,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/image-search.test.js",
+      "release_relative_path": "frontend/image-search.test.js",
+      "original_sha256": "0b31788b7c30534788d9b80d61d787fb67b1f0db9c23404dafcf5897ccd906b3",
+      "release_sha256": "0b31788b7c30534788d9b80d61d787fb67b1f0db9c23404dafcf5897ccd906b3",
+      "release_bytes": 8512,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/pagination.test.js",
+      "release_relative_path": "frontend/pagination.test.js",
+      "original_sha256": "31e0e2204455673f8237c77f77dcf4de68acc1d11b8e1e56b2fb734f9ae38dd2",
+      "release_sha256": "31e0e2204455673f8237c77f77dcf4de68acc1d11b8e1e56b2fb734f9ae38dd2",
+      "release_bytes": 4430,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/presentation.test.js",
+      "release_relative_path": "frontend/presentation.test.js",
+      "original_sha256": "7b7020f9f9b00d57e37febaef0d8711327ebb6256c5e1f8b04ed7a583933de35",
+      "release_sha256": "7b7020f9f9b00d57e37febaef0d8711327ebb6256c5e1f8b04ed7a583933de35",
+      "release_bytes": 3657,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/products.test.js",
+      "release_relative_path": "frontend/products.test.js",
+      "original_sha256": "bbb0f706e89bcb8e1bab1017b8ed26946f709f197214750b04d5b495e1dbc38d",
+      "release_sha256": "bbb0f706e89bcb8e1bab1017b8ed26946f709f197214750b04d5b495e1dbc38d",
+      "release_bytes": 3663,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/search.test.js",
+      "release_relative_path": "frontend/search.test.js",
+      "original_sha256": "6c8bb193f24d7dd22a9963df5ba4bf5e362896a90353e393a30d303920af02d4",
+      "release_sha256": "6c8bb193f24d7dd22a9963df5ba4bf5e362896a90353e393a30d303920af02d4",
+      "release_bytes": 5788,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/state.test.js",
+      "release_relative_path": "frontend/state.test.js",
+      "original_sha256": "1c7848874e568960fedde454024f8012dc7ea6b1ae1f5c97b86a31f65595810a",
+      "release_sha256": "1c7848874e568960fedde454024f8012dc7ea6b1ae1f5c97b86a31f65595810a",
+      "release_bytes": 4381,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/voice-app.test.js",
+      "release_relative_path": "frontend/voice-app.test.js",
+      "original_sha256": "3fb1dc2276d243a38959942170dd9873f98970c96ec471d0b0949393a67170f4",
+      "release_sha256": "3fb1dc2276d243a38959942170dd9873f98970c96ec471d0b0949393a67170f4",
+      "release_bytes": 15877,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "frontend/voice.test.js",
+      "release_relative_path": "frontend/voice.test.js",
+      "original_sha256": "a1a7725d2a6498c8d6ed49a7cdb73bd144b28079e9236e6c16f404b891a8f394",
+      "release_sha256": "a1a7725d2a6498c8d6ed49a7cdb73bd144b28079e9236e6c16f404b891a8f394",
+      "release_bytes": 11772,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/api.py",
+      "release_relative_path": "backend/api.py",
+      "original_sha256": "d140e5518ff5e8c2861461583481514081deba5dd71b7cc6c40acf016d9502a3",
+      "release_sha256": "d140e5518ff5e8c2861461583481514081deba5dd71b7cc6c40acf016d9502a3",
+      "release_bytes": 17052,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/chatbot.py",
+      "release_relative_path": "backend/chatbot.py",
+      "original_sha256": "2e8b0fff537210df7dc83aebc498853ea68daa0cd4111fc085b46c43aa22999e",
+      "release_sha256": "2e8b0fff537210df7dc83aebc498853ea68daa0cd4111fc085b46c43aa22999e",
+      "release_bytes": 31094,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/SKILL.md",
+      "release_relative_path": "backend/SKILL.md",
+      "original_sha256": "80adb2fae0eaf5a3892fcb5efbfa448f59703b5e1535cdf1b2b4f7e953e9fd0c",
+      "release_sha256": "80adb2fae0eaf5a3892fcb5efbfa448f59703b5e1535cdf1b2b4f7e953e9fd0c",
+      "release_bytes": 13032,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/API.md",
+      "release_relative_path": "backend/API.md",
+      "original_sha256": "33fcc0da8ff057626762287fa6f5cf9af59f9123a23149cee9f19779d612d8e0",
+      "release_sha256": "d85cd1291a8012e4783334045fae0cfedd9eba623599502efdfa3ddab1ee3c4a",
+      "release_bytes": 24556,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/requirements.txt",
+      "release_relative_path": "backend/requirements.txt",
+      "original_sha256": "0817b550fedddbde3805edc162eff4d9e7049c3a5b7e2a46e6a9e5d394fc94d7",
+      "release_sha256": "0817b550fedddbde3805edc162eff4d9e7049c3a5b7e2a46e6a9e5d394fc94d7",
+      "release_bytes": 158,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/requirements-api-test.txt",
+      "release_relative_path": "backend/requirements-api-test.txt",
+      "original_sha256": "9438b175f4bb8c6f640ef93d209c6e2c3eeb0980205fac99518af3b4f1bfd376",
+      "release_sha256": "9438b175f4bb8c6f640ef93d209c6e2c3eeb0980205fac99518af3b4f1bfd376",
+      "release_bytes": 105,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/__init__.py",
+      "release_relative_path": "backend/src/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_bytes": 0,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/conversation_context.py",
+      "release_relative_path": "backend/src/conversation_context.py",
+      "original_sha256": "1aa676ddb396d8fb153bf76058937c6ff9893dad70b328f15b366e7c48430876",
+      "release_sha256": "1aa676ddb396d8fb153bf76058937c6ff9893dad70b328f15b366e7c48430876",
+      "release_bytes": 2077,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/extract_embeding.py",
+      "release_relative_path": "backend/src/extract_embeding.py",
+      "original_sha256": "0f7eee8873d84594e80aa54adef1591c9fb6cdb59f83f5afaf4ab532218de1aa",
+      "release_sha256": "0f7eee8873d84594e80aa54adef1591c9fb6cdb59f83f5afaf4ab532218de1aa",
+      "release_bytes": 4114,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/hybrid_image_search.py",
+      "release_relative_path": "backend/src/hybrid_image_search.py",
+      "original_sha256": "b85ac7b07e9e841e97ea710c6f020b7afe6b7affe51e8aaa584ed1794ea4501f",
+      "release_sha256": "b85ac7b07e9e841e97ea710c6f020b7afe6b7affe51e8aaa584ed1794ea4501f",
+      "release_bytes": 5473,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/image_messages.py",
+      "release_relative_path": "backend/src/image_messages.py",
+      "original_sha256": "99b0aa7811eaef8352c9528e9d477cf2c7534bf592220979d46a96bc6f65c841",
+      "release_sha256": "99b0aa7811eaef8352c9528e9d477cf2c7534bf592220979d46a96bc6f65c841",
+      "release_bytes": 1509,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/image_reference.py",
+      "release_relative_path": "backend/src/image_reference.py",
+      "original_sha256": "14163ef578845920d291dcb194f74753af603dd03c0d5bf622e087d71dd98f45",
+      "release_sha256": "14163ef578845920d291dcb194f74753af603dd03c0d5bf622e087d71dd98f45",
+      "release_bytes": 5357,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/image_upload.py",
+      "release_relative_path": "backend/src/image_upload.py",
+      "original_sha256": "d9cf2631f33e190f02568775c6cd8a254fd9e170ac98295faa425f005d9b8821",
+      "release_sha256": "d9cf2631f33e190f02568775c6cd8a254fd9e170ac98295faa425f005d9b8821",
+      "release_bytes": 2915,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/ingest_product.py",
+      "release_relative_path": "backend/src/ingest_product.py",
+      "original_sha256": "f0cdcbf5292b8d8912e9c656c684f48c553eac208d1d31c60cab4b40b71f82c9",
+      "release_sha256": "f0cdcbf5292b8d8912e9c656c684f48c553eac208d1d31c60cab4b40b71f82c9",
+      "release_bytes": 4419,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/json_size_limit.py",
+      "release_relative_path": "backend/src/json_size_limit.py",
+      "original_sha256": "ee609b41bb3539663f4fe47c65b3f52055d4acfa037bd1ff64b0c4e38db608ab",
+      "release_sha256": "ee609b41bb3539663f4fe47c65b3f52055d4acfa037bd1ff64b0c4e38db608ab",
+      "release_bytes": 1113,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/product_search.py",
+      "release_relative_path": "backend/src/product_search.py",
+      "original_sha256": "d818051432f2d6895533bd60fb1b48b2b7781fd5f7f6df79863047b76b9c56cd",
+      "release_sha256": "d818051432f2d6895533bd60fb1b48b2b7781fd5f7f6df79863047b76b9c56cd",
+      "release_bytes": 24794,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/qdrant_connection.py",
+      "release_relative_path": "backend/src/qdrant_connection.py",
+      "original_sha256": "4dc0d4fda53ef15f759fa9967398ba56476cfe4b3431bef71f47af8f3e1a4681",
+      "release_sha256": "4dc0d4fda53ef15f759fa9967398ba56476cfe4b3431bef71f47af8f3e1a4681",
+      "release_bytes": 3528,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/query_attribute_extractor.py",
+      "release_relative_path": "backend/src/query_attribute_extractor.py",
+      "original_sha256": "63c8f683ece9272568cfccfa572274fdb33e7d056144bd9fd9735477be1143ea",
+      "release_sha256": "63c8f683ece9272568cfccfa572274fdb33e7d056144bd9fd9735477be1143ea",
+      "release_bytes": 13515,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/result_count.py",
+      "release_relative_path": "backend/src/result_count.py",
+      "original_sha256": "8b40dcfd9839d0c350d8ca048996f320c084b856f1a06936767b2ad23ce47df4",
+      "release_sha256": "8b40dcfd9839d0c350d8ca048996f320c084b856f1a06936767b2ad23ce47df4",
+      "release_bytes": 2735,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/search_state.py",
+      "release_relative_path": "backend/src/search_state.py",
+      "original_sha256": "dd9ce3873f24cf9c18ae78af2cce2b6e2d55a21eed2540883d749ad433422465",
+      "release_sha256": "dd9ce3873f24cf9c18ae78af2cce2b6e2d55a21eed2540883d749ad433422465",
+      "release_bytes": 4184,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/src/zero_shot_classifier.py",
+      "release_relative_path": "backend/src/zero_shot_classifier.py",
+      "original_sha256": "bdad5da75e4d58be3f4cebefc4690dc05f85e4482d2857e484ce13031392d0f3",
+      "release_sha256": "bdad5da75e4d58be3f4cebefc4690dc05f85e4482d2857e484ce13031392d0f3",
+      "release_bytes": 7443,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_hybrid_image_search.py",
+      "release_relative_path": "backend/scripts/validate_hybrid_image_search.py",
+      "original_sha256": "5e2e65535596da7ca4fbf6f77a59eb2b7db16a09fce7393e52a45115d111b2aa",
+      "release_sha256": "5e2e65535596da7ca4fbf6f77a59eb2b7db16a09fce7393e52a45115d111b2aa",
+      "release_bytes": 4749,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_image_context.py",
+      "release_relative_path": "backend/scripts/validate_image_context.py",
+      "original_sha256": "ea2b369e2777bd7e7f22c2ec9097ee000654a9beb90b6a4c217cacd44c9b98b3",
+      "release_sha256": "ea2b369e2777bd7e7f22c2ec9097ee000654a9beb90b6a4c217cacd44c9b98b3",
+      "release_bytes": 3130,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_image_search.py",
+      "release_relative_path": "backend/scripts/validate_image_search.py",
+      "original_sha256": "82fe7ec252557c0ea5820234b715555d5a50e4e07583eaf11a72bfb28d828715",
+      "release_sha256": "82fe7ec252557c0ea5820234b715555d5a50e4e07583eaf11a72bfb28d828715",
+      "release_bytes": 6736,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_image_text.py",
+      "release_relative_path": "backend/scripts/validate_image_text.py",
+      "original_sha256": "7d687e22b2011afd3fa0c1111d02568be36625a0c7599ce49f10d9d4836f9576",
+      "release_sha256": "7d687e22b2011afd3fa0c1111d02568be36625a0c7599ce49f10d9d4836f9576",
+      "release_bytes": 2816,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_pagination.py",
+      "release_relative_path": "backend/scripts/validate_pagination.py",
+      "original_sha256": "864cf4f73daaf15b9d97fd3b2135a36a577967f887064da53560b756e7136738",
+      "release_sha256": "864cf4f73daaf15b9d97fd3b2135a36a577967f887064da53560b756e7136738",
+      "release_bytes": 2410,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/scripts/validate_result_count.py",
+      "release_relative_path": "backend/scripts/validate_result_count.py",
+      "original_sha256": "e7c79124d159fadb5ef690705cc1f1dbfffc260f63990df73be219007c688166",
+      "release_sha256": "e7c79124d159fadb5ef690705cc1f1dbfffc260f63990df73be219007c688166",
+      "release_bytes": 3521,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/other_tools/convert_to_json.py",
+      "release_relative_path": "backend/other_tools/convert_to_json.py",
+      "original_sha256": "9c75c16225a6629dd294a2af0f1a608aa85d805c4dd9258b9292390ae5e37465",
+      "release_sha256": "9c75c16225a6629dd294a2af0f1a608aa85d805c4dd9258b9292390ae5e37465",
+      "release_bytes": 2101,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/other_tools/image_metadata.py",
+      "release_relative_path": "backend/other_tools/image_metadata.py",
+      "original_sha256": "b6b528c0109c32aca242fc0d2b1854a650b4abc7bdbce569195764e1b771eba7",
+      "release_sha256": "b6b528c0109c32aca242fc0d2b1854a650b4abc7bdbce569195764e1b771eba7",
+      "release_bytes": 462,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_chatbot_results.py",
+      "release_relative_path": "backend/tests/test_chatbot_results.py",
+      "original_sha256": "a3f4d7d7a63aa066f568c7c733716aed43802819e3a967cc6829c7a80f9bb5d1",
+      "release_sha256": "a3f4d7d7a63aa066f568c7c733716aed43802819e3a967cc6829c7a80f9bb5d1",
+      "release_bytes": 16452,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_api.py",
+      "release_relative_path": "backend/tests/test_api.py",
+      "original_sha256": "be24dd59bcdb80ead313149b16b437812c745b1c331d16eebe5f56e0b49fdb8c",
+      "release_sha256": "0f9490d04e6ab6ab7bac63047f80b1cac32edd4179a677c163d7cad838fae9d9",
+      "release_bytes": 13470,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_image_api.py",
+      "release_relative_path": "backend/tests/test_image_api.py",
+      "original_sha256": "00685c6ca3690c3b859dbc621796d2beec5e89358ca661ba6fd74f478a49ff09",
+      "release_sha256": "00685c6ca3690c3b859dbc621796d2beec5e89358ca661ba6fd74f478a49ff09",
+      "release_bytes": 8364,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_image_text.py",
+      "release_relative_path": "backend/tests/test_image_text.py",
+      "original_sha256": "8b8af95fb579d380ca7e77ccc1cb3036648aeff02ce660840540dbc300103f43",
+      "release_sha256": "8b8af95fb579d380ca7e77ccc1cb3036648aeff02ce660840540dbc300103f43",
+      "release_bytes": 8097,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_hybrid_image_search.py",
+      "release_relative_path": "backend/tests/test_hybrid_image_search.py",
+      "original_sha256": "0fd11cf119fc52257e547f9886fc157b5ea5d9919c885379eec64c91fcc256c4",
+      "release_sha256": "0fd11cf119fc52257e547f9886fc157b5ea5d9919c885379eec64c91fcc256c4",
+      "release_bytes": 8277,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_image_search.py",
+      "release_relative_path": "backend/tests/test_image_search.py",
+      "original_sha256": "d4c2f5efb8900547b3b3056297d9c80151101590dfecdc59414b6c89b21cc218",
+      "release_sha256": "d4c2f5efb8900547b3b3056297d9c80151101590dfecdc59414b6c89b21cc218",
+      "release_bytes": 7136,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_extraction_robustness.py",
+      "release_relative_path": "backend/tests/test_extraction_robustness.py",
+      "original_sha256": "3b3bc55acd38c6469e178afc6a62eded1f3a9508841a3868767e03bf69b953df",
+      "release_sha256": "3b3bc55acd38c6469e178afc6a62eded1f3a9508841a3868767e03bf69b953df",
+      "release_bytes": 3268,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_pagination.py",
+      "release_relative_path": "backend/tests/test_pagination.py",
+      "original_sha256": "1c820c988990825a36fdaa1316a9b4c212a99d7c2485271f9c852b9eee5a3909",
+      "release_sha256": "1c820c988990825a36fdaa1316a9b4c212a99d7c2485271f9c852b9eee5a3909",
+      "release_bytes": 11586,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_image_context.py",
+      "release_relative_path": "backend/tests/test_image_context.py",
+      "original_sha256": "20f607ea7ec77724203b1ae71cd1390edbe6852efb7f43f82a1997631ab3413d",
+      "release_sha256": "20f607ea7ec77724203b1ae71cd1390edbe6852efb7f43f82a1997631ab3413d",
+      "release_bytes": 9879,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_result_count.py",
+      "release_relative_path": "backend/tests/test_result_count.py",
+      "original_sha256": "2594ec2126fdd04e0fd1f13838f854b7405bf90b5f2749dc7b4c3b3c77ceab3d",
+      "release_sha256": "2594ec2126fdd04e0fd1f13838f854b7405bf90b5f2749dc7b4c3b3c77ceab3d",
+      "release_bytes": 12019,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/tests/test_unified_modes.py",
+      "release_relative_path": "backend/tests/test_unified_modes.py",
+      "original_sha256": "3ebb141916479b9d4f1c43990e9fa9029263f2adc5bc9e2f5816ddf44b8ba47c",
+      "release_sha256": "3ebb141916479b9d4f1c43990e9fa9029263f2adc5bc9e2f5816ddf44b8ba47c",
+      "release_bytes": 13291,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/data/products.csv",
+      "release_relative_path": "backend/data/products.csv",
+      "original_sha256": "c60a95db5c44355925e88f4c142e8d32d6749b727fed68a6bc51ad16b6cc6195",
+      "release_sha256": "c60a95db5c44355925e88f4c142e8d32d6749b727fed68a6bc51ad16b6cc6195",
+      "release_bytes": 65801,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/data/products.json",
+      "release_relative_path": "backend/data/products.json",
+      "original_sha256": "7776deca44dc9b7db632cf91ec40f88e3cfd4b3df921d510edda654c88530eb7",
+      "release_sha256": "7776deca44dc9b7db632cf91ec40f88e3cfd4b3df921d510edda654c88530eb7",
+      "release_bytes": 143788,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/data/samples/sample_tshirt_schema.json",
+      "release_relative_path": "backend/data/samples/sample_tshirt_schema.json",
+      "original_sha256": "c0442c3c000386372ca971e94c87709f198452b5816bae226699ac583693b022",
+      "release_sha256": "c0442c3c000386372ca971e94c87709f198452b5816bae226699ac583693b022",
+      "release_bytes": 1000,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/EVALUATION_REPORT.md",
+      "release_relative_path": "evaluation/EVALUATION_REPORT.md",
+      "original_sha256": "78fb5caa4a1b420ab530699b45ce23e670994a662a7ff023bf51875186a418a7",
+      "release_sha256": "35fa91b302821ac297f682497ddb83d437c152ec20215b8e2d1d0b6b6f6bbf35",
+      "release_bytes": 5926,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/queries.csv",
+      "release_relative_path": "evaluation/queries.csv",
+      "original_sha256": "d7ee0771f807771561de8f507748d1be1e013beab56ada3c2cb152932d103d6b",
+      "release_sha256": "f162bc96e4ada1ab4b22aecb2a0523fac92d79d5df28700c63e50fda48048e93",
+      "release_bytes": 1722,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/results.csv",
+      "release_relative_path": "evaluation/results.csv",
+      "original_sha256": "3f8216725a59ace4386c2b86272063ac55792976ea90d47449cb8c00e34cdbd3",
+      "release_sha256": "3f8216725a59ace4386c2b86272063ac55792976ea90d47449cb8c00e34cdbd3",
+      "release_bytes": 20795,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/metrics.csv",
+      "release_relative_path": "evaluation/metrics.csv",
+      "original_sha256": "707f32881d7c48cb9c53f64f235fdf40ce975912ccd3b6fae3b56d1770a0483b",
+      "release_sha256": "43f8a081a75c6b5fcde79e6011760c18c0f7a12c55acf076b1d4670027ac74f2",
+      "release_bytes": 757,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/summary.csv",
+      "release_relative_path": "evaluation/summary.csv",
+      "original_sha256": "98b90de2f1c154f6a2beb34c49c4555ed41b1c102212313b3afec15a18be7745",
+      "release_sha256": "7dcbca360800996272cac260e78540028224ab17efe76529b8c90505f28fb2ac",
+      "release_bytes": 215,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/ablation.csv",
+      "release_relative_path": "evaluation/ablation.csv",
+      "original_sha256": "77c6696e58a1189484cd2f23549bf3bc9c0c1a5a6333fe16428f5b203943fef9",
+      "release_sha256": "77c6696e58a1189484cd2f23549bf3bc9c0c1a5a6333fe16428f5b203943fef9",
+      "release_bytes": 357,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/failure_cases.md",
+      "release_relative_path": "evaluation/failure_cases.md",
+      "original_sha256": "724aa4d557bcefbac2a9f9916efc3c5ce9a9121acc458e3329ed6f1e81deae7d",
+      "release_sha256": "729252d46734b2efe88e036e3310e1a8a47b77d0fb0cbdf6c4906a11c1df5788",
+      "release_bytes": 3699,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/calculate_metrics.py",
+      "release_relative_path": "evaluation/calculate_metrics.py",
+      "original_sha256": "1a0ff927ce15e8d792b3d95243ee756f196e7722be71c61feef89fdcd5f226d7",
+      "release_sha256": "1a0ff927ce15e8d792b3d95243ee756f196e7722be71c61feef89fdcd5f226d7",
+      "release_bytes": 6104,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/run_evaluation.py",
+      "release_relative_path": "evaluation/run_evaluation.py",
+      "original_sha256": "aaeff260629f7a710481ee6069db455620128ede6c08dcf08cf0913a25eeaccb",
+      "release_sha256": "cee60623fa434d13f87bf2738649c1dd5fd170dfe8b825e1de6bf49565eac933",
+      "release_bytes": 15981,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/runs.csv",
+      "release_relative_path": "evaluation/runs.csv",
+      "original_sha256": "103e0dfe9926468089da5b0370d0ab50f644540de21b459bb7d5228f8e365305",
+      "release_sha256": "103e0dfe9926468089da5b0370d0ab50f644540de21b459bb7d5228f8e365305",
+      "release_bytes": 373,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/run_manifest.json",
+      "release_relative_path": "evaluation/run_manifest.json",
+      "original_sha256": "95ff9fe414dc487e01414f2e1264b4e6ef2ccf8089f54f188511823870845955",
+      "release_sha256": "95ff9fe414dc487e01414f2e1264b4e6ef2ccf8089f54f188511823870845955",
+      "release_bytes": 29213,
+      "changed_for_release": false
+    },
+    {
+      "original_relative_path": "GarmentChatbot/evaluation/annotations.csv",
+      "release_relative_path": "evaluation/annotations.csv",
+      "original_sha256": "385f1467472f45361da634b5400ef5117898fe52c958360dca13e477f0eaaf25",
+      "release_sha256": "60533551ad08a2db0f86597ca07d020d1451743cfdc8fad08ae222969e92d9e3",
+      "release_bytes": 1815,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/validation/UNIFIED_SEARCH_MODES.md",
+      "release_relative_path": "docs/validation/UNIFIED_SEARCH_MODES.md",
+      "original_sha256": "c2b1c7cc5b51fb81a128c4d2b729c784848920ea98b9e89cdea1e237f20cf174",
+      "release_sha256": "52ee7fd480b0461c0778d5198e8dfa8904b67500e51ae2798dede4e6c6c963bf",
+      "release_bytes": 17443,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/validation/FRONTEND_UI_CLEANUP.md",
+      "release_relative_path": "docs/validation/FRONTEND_UI_CLEANUP.md",
+      "original_sha256": "ff9448dd395c0979728d143ab240ef3d95974c92a7add3f2b144f489279cce8b",
+      "release_sha256": "8a496e7288ce96377cca43d86a59340b91b3d71d6f1d3835a7c1d852efde0f7e",
+      "release_bytes": 5755,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/validation/FULL_CONTEXT_PAGINATION.md",
+      "release_relative_path": "docs/validation/FULL_CONTEXT_PAGINATION.md",
+      "original_sha256": "10cb18fce3daa826a5fb9e44b0eb29dea14d41f70d2cf8dff0d76d3667f3bf7b",
+      "release_sha256": "fcb357db1ef0ccbfc546b0adecfc355208d8b9602782c8bdee3e19c9c6077f33",
+      "release_bytes": 9271,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/validation/PERSISTENT_IMAGE_CONTEXT.md",
+      "release_relative_path": "docs/validation/PERSISTENT_IMAGE_CONTEXT.md",
+      "original_sha256": "be5c325f16ece0dce72c9b352ef50dbb8611bc21014104fe02712dac2c933b34",
+      "release_sha256": "24fe9a1117c35cda887e28f47ecd2dfa65882dc41b361e6839508954659aa18e",
+      "release_bytes": 12105,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "GarmentChatbot/validation/DYNAMIC_RESULT_COUNT.md",
+      "release_relative_path": "docs/validation/DYNAMIC_RESULT_COUNT.md",
+      "original_sha256": "8dddfe9e65901080992865cf07ecaad9ba83d9fc2eba209ff64d68e077a59f07",
+      "release_sha256": "eccf69f7d178a4a0d03edfbfcd48647e33573d38322a922834cb7a4aa6f5343b",
+      "release_bytes": 8822,
+      "changed_for_release": true
+    },
+    {
+      "original_relative_path": "frontend/VOICE_VALIDATION.md",
+      "release_relative_path": "docs/validation/VOICE_VALIDATION.md",
+      "original_sha256": "b2a1600f6d91a357c6ec3105c15aecdef26f2260d839ba56cac80920ab78ac13",
+      "release_sha256": "237d5813c7118fe4ea4d42f325e1e99d8567117fe728ee4a9dcd1fe958cbe721",
+      "release_bytes": 14341,
+      "changed_for_release": true
+    }
+  ],
+  "scope": "Copied allowlisted files only; separately authored docs/templates/manifests are not counted as copied source files."
+}
