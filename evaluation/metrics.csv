@@ -1,0 +1,14 @@
+query_id,search_type,variant,status,returned_count,annotated_count,relevant_count,precision_at_5,returned_five,source_excluded
+T1,text,text,complete,5,5,5,1.0000,1,not_applicable
+T2,text,text,complete,0,0,0,0.0000,0,not_applicable
+T3,text,text,complete,5,5,4,0.8000,1,not_applicable
+T4,text,text,complete,2,2,1,0.2000,0,not_applicable
+I1,image,v1,complete,5,5,5,1.0000,1,true
+I1,image,v2,complete,5,5,5,1.0000,1,true
+I2,image,v1,complete,5,5,5,1.0000,1,true
+I2,image,v2,complete,5,5,5,1.0000,1,true
+I3,image,v1,complete,5,5,1,0.2000,1,true
+I3,image,v2,complete,5,5,0,0.0000,1,true
+M1,image_text,image_text,complete,5,5,5,1.0000,1,true
+M2,image_text,image_text,complete,5,5,5,1.0000,1,true
+M3,image_text,image_text,complete,5,5,3,0.6000,1,true

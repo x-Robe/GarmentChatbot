@@ -1,0 +1,19 @@
+{
+  "catalog_files": 1993,
+  "catalog_bytes": 378919404,
+  "metadata_records": 2000,
+  "missing_image_ids": [
+    "357",
+    "358",
+    "359",
+    "360",
+    "361",
+    "362",
+    "363"
+  ],
+  "redistribution_rights": "pending review",
+  "images_included": true,
+  "model_weights_included": false,
+  "asset_source": "preserved existing repository data/images/tshirt; no external/local release JPEG copied",
+  "clean_staging_release_images_included": false
+}

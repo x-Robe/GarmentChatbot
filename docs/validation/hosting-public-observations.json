@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "existing_frontend_http": 200,
+  "existing_backend_health_http": 200,
+  "expected_backend_health_json": true,
+  "image_941_head_http": 200,
+  "live_frontend_api_origin_matches_source": true,
+  "cors_allows_firebase_origin": true,
+  "deployment_performed": false,
+  "live_search_performed": false,
+  "ownership_confirmed": false
+}

@@ -1,0 +1,96 @@
+{
+  "platform": "darwin",
+  "architecture": "arm64",
+  "logical_cpu_count": 10,
+  "torch_threads": 4,
+  "python": "3.12.14",
+  "model_cache": "existing local files only; offline enforced",
+  "status": "passed_local_offline_model_measurement",
+  "elapsed_seconds": 4.859,
+  "stages": [
+    {
+      "stage": "api_import_no_models",
+      "wall_seconds": 0.231,
+      "cpu_seconds": 0.143,
+      "rss_bytes": null,
+      "peak_rss_bytes": 58212352
+    },
+    {
+      "stage": "search_module_import_no_weights",
+      "wall_seconds": 3.869,
+      "cpu_seconds": 2.778,
+      "rss_bytes": null,
+      "peak_rss_bytes": 501874688
+    },
+    {
+      "stage": "fashionclip_load_existing_cache_cpu",
+      "wall_seconds": 0.179,
+      "cpu_seconds": 0.161,
+      "rss_bytes": null,
+      "peak_rss_bytes": 550961152
+    },
+    {
+      "stage": "fashionclip_first_text",
+      "wall_seconds": 0.034,
+      "cpu_seconds": 0.022,
+      "rss_bytes": null,
+      "peak_rss_bytes": 706478080
+    },
+    {
+      "stage": "fashionclip_warm_text",
+      "wall_seconds": 0.007,
+      "cpu_seconds": 0.008,
+      "rss_bytes": null,
+      "peak_rss_bytes": 706494464
+    },
+    {
+      "stage": "fashionclip_first_catalog_image",
+      "wall_seconds": 0.048,
+      "cpu_seconds": 0.047,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1057636352
+    },
+    {
+      "stage": "fashionclip_warm_catalog_image",
+      "wall_seconds": 0.023,
+      "cpu_seconds": 0.027,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1057636352
+    },
+    {
+      "stage": "minilm_load_and_label_encode",
+      "wall_seconds": 0.183,
+      "cpu_seconds": 0.116,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1112588288
+    },
+    {
+      "stage": "minilm_warm_extract",
+      "wall_seconds": 0.003,
+      "cpu_seconds": 0.003,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1112653824
+    },
+    {
+      "stage": "two_maximum_20mp_uploads_decoded_synthetic",
+      "wall_seconds": 0.077,
+      "cpu_seconds": 0.076,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1349877760
+    },
+    {
+      "stage": "maximum_20mp_image_inference_synthetic",
+      "wall_seconds": 0.135,
+      "cpu_seconds": 0.123,
+      "rss_bytes": null,
+      "peak_rss_bytes": 1592590336
+    }
+  ],
+  "not_measured": [
+    "Render Linux container",
+    "Qdrant",
+    "LLM",
+    "full search",
+    "concurrent end-to-end load"
+  ]
+}

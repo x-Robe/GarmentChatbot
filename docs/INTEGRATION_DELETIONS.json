@@ -1,0 +1,142 @@
+[
+  {
+    "path": ".env",
+    "reason": "Secret-bearing current-tree file; safe root template replaces private configuration. History deliberately unchanged."
+  },
+  {
+    "path": ".idea/.name",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/GarmentReferenceChatbot.iml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/inspectionProfiles/profiles_settings.xml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/misc.xml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/modules.xml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/vcs.xml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": ".idea/workspace.xml",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "Credentials/qdrant",
+    "reason": "Secret-bearing current-tree file; safe root template replaces private configuration. History deliberately unchanged."
+  },
+  {
+    "path": "SKILL.md",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "chatbot.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "other_tools/convert_to_json.py",
+    "reason": "Exact duplicate tool relocated to backend/other_tools; byte match checked before removal."
+  },
+  {
+    "path": "other_tools/image_metadata.py",
+    "reason": "Exact duplicate tool relocated to backend/other_tools; byte match checked before removal."
+  },
+  {
+    "path": "requirements.txt",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/__init__.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/__pycache__/__init__.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/__init__.cpython-313.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/extract_embeding.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/extract_embeding.cpython-313.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/product_search.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/qdrant_connection.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/qdrant_connection.cpython-313.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/query_attribute_extractor.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/zero_shot_classifier.cpython-310.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/__pycache__/zero_shot_classifier.cpython-313.pyc",
+    "reason": "Generated IDE/bytecode metadata; no runtime dependency."
+  },
+  {
+    "path": "src/extract_embeding.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/ingest_product.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/product_search.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/qdrant_connection.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/query_attribute_extractor.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "src/zero_shot_classifier.py",
+    "reason": "Superseded root application source/dependency/instruction path; authoritative completed release is under backend/."
+  },
+  {
+    "path": "tests/test_product_search_wo_llm.py",
+    "reason": "Import-time legacy live smoke script superseded by isolated backend/tests and opt-in backend/scripts; historical source remains in parent commit."
+  },
+  {
+    "path": "tests/test_qdrant.py",
+    "reason": "Import-time legacy live smoke script superseded by isolated backend/tests and opt-in backend/scripts; historical source remains in parent commit."
+  },
+  {
+    "path": "tests/test_vector_search.py",
+    "reason": "Import-time legacy live smoke script superseded by isolated backend/tests and opt-in backend/scripts; historical source remains in parent commit."
+  },
+  {
+    "path": "tests/tests_attr_extract.py",
+    "reason": "Import-time legacy live smoke script superseded by isolated backend/tests and opt-in backend/scripts; historical source remains in parent commit."
+  }
+]

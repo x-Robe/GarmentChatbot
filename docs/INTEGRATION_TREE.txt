@@ -1,0 +1,136 @@
+GarmentChatbot/
+├── .env.example
+├── .gitignore
+├── README.md
+├── backend/
+│   ├── API.md
+│   ├── SKILL.md
+│   ├── api.py
+│   ├── chatbot.py
+│   ├── data/
+│   │   ├── products.csv
+│   │   ├── products.json
+│   │   └── samples/
+│   │       └── sample_tshirt_schema.json
+│   ├── other_tools/
+│   │   ├── convert_to_json.py
+│   │   └── image_metadata.py
+│   ├── requirements-api-test.txt
+│   ├── requirements.txt
+│   ├── scripts/
+│   │   ├── validate_hybrid_image_search.py
+│   │   ├── validate_image_context.py
+│   │   ├── validate_image_search.py
+│   │   ├── validate_image_text.py
+│   │   ├── validate_pagination.py
+│   │   └── validate_result_count.py
+│   ├── src/
+│   │   ├── __init__.py
+│   │   ├── asset_paths.py
+│   │   ├── conversation_context.py
+│   │   ├── extract_embeding.py
+│   │   ├── hybrid_image_search.py
+│   │   ├── image_messages.py
+│   │   ├── image_reference.py
+│   │   ├── image_upload.py
+│   │   ├── ingest_product.py
+│   │   ├── json_size_limit.py
+│   │   ├── product_search.py
+│   │   ├── qdrant_connection.py
+│   │   ├── query_attribute_extractor.py
+│   │   ├── result_count.py
+│   │   ├── search_state.py
+│   │   └── zero_shot_classifier.py
+│   ├── tests/
+│   │   ├── test_api.py
+│   │   ├── test_chatbot_results.py
+│   │   ├── test_extraction_robustness.py
+│   │   ├── test_hybrid_image_search.py
+│   │   ├── test_image_api.py
+│   │   ├── test_image_context.py
+│   │   ├── test_image_search.py
+│   │   ├── test_image_text.py
+│   │   ├── test_pagination.py
+│   │   ├── test_repository_layout.py
+│   │   ├── test_result_count.py
+│   │   └── test_unified_modes.py
+│   └── validation/
+│       └── .gitkeep
+├── data/
+│   ├── images/
+│   │   └── tshirt/
+│   │       └── [1,993 original JPEGs; per-file names/checksums in docs/CATALOG_ASSET_MANIFEST.csv]
+│   ├── products.csv
+│   ├── products.json
+│   └── samples/
+│       ├── sample_products.json
+│       └── sample_tshirt_schema.json
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── CATALOG_ASSET_MANIFEST.csv
+│   ├── CATALOG_ASSET_SUMMARY.json
+│   ├── DATASET_ASSETS.md
+│   ├── DEPLOYMENT_NOTES.md
+│   ├── GITHUB_RELEASE_CHECKLIST.md
+│   ├── HANDOVER.md
+│   ├── INTEGRATION_DELETIONS.json
+│   ├── INTEGRATION_FILE_CHANGES.json
+│   ├── INTEGRATION_PR_DESCRIPTION.md
+│   ├── INTEGRATION_REPORT.md
+│   ├── INTEGRATION_TREE.txt
+│   ├── RELEASE_CHANGES.md
+│   ├── RELEASE_FILE_MANIFEST.json
+│   ├── TESTED_VERSIONS.md
+│   └── validation/
+│       ├── DYNAMIC_RESULT_COUNT.md
+│       ├── FRONTEND_UI_CLEANUP.md
+│       ├── FULL_CONTEXT_PAGINATION.md
+│       ├── PERSISTENT_IMAGE_CONTEXT.md
+│       ├── UNIFIED_SEARCH_MODES.md
+│       ├── VOICE_VALIDATION.md
+│       ├── backend-tests.txt
+│       ├── frontend-tests.txt
+│       ├── integration-backend-tests.txt
+│       ├── integration-frontend-tests.txt
+│       ├── integration-validation.json
+│       ├── release-security.json
+│       ├── release-smoke.json
+│       └── release-validation.json
+├── evaluation/
+│   ├── EVALUATION_REPORT.md
+│   ├── README.md
+│   ├── ablation.csv
+│   ├── annotations.csv
+│   ├── calculate_metrics.py
+│   ├── failure_cases.md
+│   ├── metrics.csv
+│   ├── queries.csv
+│   ├── results.csv
+│   ├── run_evaluation.py
+│   ├── run_manifest.json
+│   ├── runs.csv
+│   └── summary.csv
+├── frontend/
+│   ├── app.js
+│   ├── config.js
+│   ├── context.js
+│   ├── context.test.js
+│   ├── image-context.test.js
+│   ├── image-search.test.js
+│   ├── index.html
+│   ├── package.json
+│   ├── pagination.test.js
+│   ├── presentation.js
+│   ├── presentation.test.js
+│   ├── products.js
+│   ├── products.test.js
+│   ├── search.js
+│   ├── search.test.js
+│   ├── state.js
+│   ├── state.test.js
+│   ├── styles.css
+│   ├── voice-app.test.js
+│   ├── voice.js
+│   └── voice.test.js
+└── models/
+    └── fashion_clip.py

@@ -1,0 +1,8 @@
+{
+  "historical_credential_match_scan": "pass",
+  "publishable_current_files_with_matches": [],
+  "local_env_preserved": true,
+  "env_not_tracked": true,
+  "catalog_evaluation_models_prompts_frontend_unchanged": true,
+  "note": "Heuristic known-key comparison; not an exhaustive secret guarantee. Historical exposures remain."
+}

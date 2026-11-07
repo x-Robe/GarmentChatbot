@@ -1,0 +1,5 @@
+# API tests only: no model downloads, Qdrant, or paid LLM calls.
+fastapi
+pydantic>=2
+python-dotenv
+httpx

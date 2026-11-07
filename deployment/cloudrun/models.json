@@ -1,0 +1,8 @@
+{
+  "patrickjohncyh/fashion-clip": {
+    "revision": "7e3ba62ce16b379a1ab479346b66f192e76f51b7"
+  },
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  }
+}

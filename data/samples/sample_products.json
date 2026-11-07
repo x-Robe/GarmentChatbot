@@ -1,0 +1,114 @@
+[
+  {
+    "id": "tshirt-img-0001",
+    "vector": [
+      0.0214,
+      -0.0831,
+      0.0475,
+      0.1128,
+      -0.0362,
+      0.0749,
+      -0.0197,
+      0.0583
+    ],
+    "payload": {
+      "product_id": "TSHIRT-0001",
+      "image_url": "https://example.com/images/tshirt-0001.jpg",
+      "category": "t-shirt",
+      "colors": [
+        "black"
+      ],
+      "patterns": [
+        "graphic"
+      ],
+      "neckline": "crew neck",
+      "sleeve": "short sleeve",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "style": [
+        "streetwear",
+        "oversized"
+      ],
+      "buttons": false
+    }
+  },
+  {
+    "id": "tshirt-img-0002",
+    "vector": [
+      -0.0187,
+      0.0625,
+      0.0913,
+      -0.0441,
+      0.0278,
+      0.1056,
+      -0.0734,
+      0.0392
+    ],
+    "payload": {
+      "product_id": "TSHIRT-0002",
+      "image_url": "https://example.com/images/tshirt-0002.jpg",
+      "category": "polo t-shirt",
+      "colors": [
+        "navy blue"
+      ],
+      "patterns": [
+        "plain"
+      ],
+      "neckline": "polo collar",
+      "sleeve": "short sleeve",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "style": [
+        "casual",
+        "smart casual"
+      ],
+      "buttons": true
+    }
+  },
+  {
+    "id": "tshirt-img-0003",
+    "vector": [
+      0.0564,
+      0.0138,
+      -0.0972,
+      0.0815,
+      0.0421,
+      -0.0683,
+      0.0246,
+      0.1097
+    ],
+    "payload": {
+      "product_id": "TSHIRT-0003",
+      "image_url": "https://example.com/images/tshirt-0003.jpg",
+      "category": "t-shirt",
+      "colors": [
+        "white",
+        "red"
+      ],
+      "patterns": [
+        "striped"
+      ],
+      "neckline": "v-neck",
+      "sleeve": "long sleeve",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "style": [
+        "casual",
+        "slim fit"
+      ],
+      "buttons": false
+    }
+  }
+]

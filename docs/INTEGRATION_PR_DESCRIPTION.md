@@ -1,0 +1,9 @@
+# Integrate Complete GarmentChatbot with Multimodal Search and Documentation
+
+The repository's earlier root-level chatbot did not include the completed browser frontend, FastAPI transport and multimodal conversation features. This branch integrates the final validated application under frontend/ and backend/, with a single documented launch path, isolated tests, saved human evaluation and hosting handover docs.
+
+The existing 1,993 JPEGs remain at root data/images/tshirt with every filename/SHA-256 unchanged. A small shared path helper lets the backend/evaluation resolve unchanged Qdrant image paths there without moving/duplicating assets, changing /images URLs, rebuilding embeddings or querying/writing Qdrant. Superseded root source/generated/credential paths are explicitly documented in docs/INTEGRATION_DELETIONS.json; unclear legacy model/metadata files are retained for owner review.
+
+Validation: 103 frontend + 160 backend tests passed (263 total); four added layout tests verify paths, schema/SKILL, all catalog hashes and real HTTP image serving. A temporary HTTP/browser check loaded actual catalog images with the unchanged product component, carousel and details, using saved results rather than paid/live retrieval. The final human evaluation remains mean P@5 0.6600 over 10 primary cases, with unchanged v1/v2 image ablation means 0.7333/0.6667.
+
+Hosting remains pending: model/cache, private rotated service credentials, Qdrant access, HTTPS/API origin/CORS, access/rate/cost controls and production readiness. The current-tree secrets are removed, but prior commits still contain exposures; owner credential rotation and separate history/fork/clone remediation are required. No history rewrite, force-push, main merge or deployment is included. This PR text is prepared locally; posting/opening is contingent on authorized Write access.

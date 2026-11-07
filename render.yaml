@@ -1,0 +1,35 @@
+# PREPARATION ONLY. Owner approval required before creating a paid/public service.
+services:
+  - type: web
+    name: garmentchatbot
+    runtime: python
+    plan: standard
+    autoDeployTrigger: "off"
+    buildCommand: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu && python -m pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn api:app --host 0.0.0.0 --port "$PORT" --workers 1 --limit-concurrency 16 --timeout-keep-alive 5
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: HF_HOME
+        value: /tmp/garment-hf-cache
+      - key: API_REQUESTS_PER_MINUTE
+        value: "30"
+      - key: API_MAX_INFLIGHT
+        value: "2"
+      - key: CORS_ORIGINS
+        sync: false
+      - key: POE_API
+        sync: false
+      - key: POE_URL
+        sync: false
+      - key: OPENAI_MODEL
+        sync: false
+      - key: QDRANT_URL
+        sync: false
+      - key: QDRANT_API
+        sync: false
+      - key: QDRANT_COLLECTION
+        sync: false
+      - key: CLIP_MODEL
+        sync: false

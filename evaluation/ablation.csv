@@ -1,0 +1,4 @@
+query_id,reference_image,v1_returned,v2_returned,v1_precision_at_5,v2_precision_at_5,difference,same_ordered_results,overlap_count,status
+I1,data/images/tshirt/941.jpg,5,5,1.0000,1.0000,0.0000,true,5,complete
+I2,data/images/tshirt/635.jpg,5,5,1.0000,1.0000,0.0000,true,5,complete
+I3,data/images/tshirt/442.jpg,5,5,0.2000,0.0000,-0.2000,false,0,complete

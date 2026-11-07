@@ -1,0 +1,14 @@
+{
+  "imported_modules": 16,
+  "all_runtime_imports_passed": true,
+  "schema_and_skill_present": true,
+  "image_mount_directory_present": true,
+  "health_http_status": 200,
+  "health_body": {
+    "status": "ok"
+  },
+  "model_or_agent_initialized": false,
+  "server": "temporary release-only loopback server on OS-assigned port; stopped after check",
+  "live_queries": 0,
+  "original_services_modified": false
+}

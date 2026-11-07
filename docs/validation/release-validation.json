@@ -1,0 +1,68 @@
+{
+  "original_files_checked": 2177,
+  "original_file_bytes_and_inventory_unchanged": true,
+  "both_git_branches_heads_remotes_status_and_index_listing_unchanged": true,
+  "runtime_byte_identity_files": 39,
+  "source_files_copied": 82,
+  "changed_copied_files": [
+    "backend/API.md",
+    "backend/tests/test_api.py",
+    "evaluation/EVALUATION_REPORT.md",
+    "evaluation/queries.csv",
+    "evaluation/metrics.csv",
+    "evaluation/summary.csv",
+    "evaluation/failure_cases.md",
+    "evaluation/run_evaluation.py",
+    "evaluation/annotations.csv",
+    "docs/validation/UNIFIED_SEARCH_MODES.md",
+    "docs/validation/FRONTEND_UI_CLEANUP.md",
+    "docs/validation/FULL_CONTEXT_PAGINATION.md",
+    "docs/validation/PERSISTENT_IMAGE_CONTEXT.md",
+    "docs/validation/DYNAMIC_RESULT_COUNT.md",
+    "docs/validation/VOICE_VALIDATION.md"
+  ],
+  "frontend_tests": {
+    "pass": 103,
+    "fail": 0
+  },
+  "backend_tests": {
+    "pass": 156,
+    "fail": 0,
+    "initial_failure_due_to_catalog_fixture": 1
+  },
+  "fresh_environment_install_validated": false,
+  "live_retrieval_performed": false,
+  "deployment_performed": false,
+  "commit_or_push_performed": false,
+  "smoke": {
+    "imported_modules": 16,
+    "all_runtime_imports_passed": true,
+    "schema_and_skill_present": true,
+    "image_mount_directory_present": true,
+    "health_http_status": 200,
+    "health_body": {
+      "status": "ok"
+    },
+    "model_or_agent_initialized": false,
+    "server": "temporary release-only loopback server on OS-assigned port; stopped after check",
+    "live_queries": 0,
+    "original_services_modified": false
+  },
+  "evaluation": {
+    "labels_preserved": 57,
+    "rankings_and_ablation_unchanged": true,
+    "primary_mean_p_at_5": "0.6600",
+    "complete_primary_queries": 10,
+    "t2": "0.0000",
+    "v1_mean": "0.7333",
+    "v2_mean": "0.6667"
+  },
+  "ignore_rules": {
+    "ignored_cases": 12,
+    "trackable_cases": 8,
+    "all_passed": true,
+    "metadata_location": "disposable temporary directory, never release or originals",
+    "no_add_commit_push": true
+  },
+  "local_markdown_link_findings": []
+}

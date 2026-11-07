@@ -1,0 +1,65 @@
+{
+  "variables": {
+    "POE_API": {
+      "current_process": "missing",
+      "local_backend_env": "empty"
+    },
+    "POE_URL": {
+      "current_process": "missing",
+      "local_backend_env": "present_unverified"
+    },
+    "OPENAI_API_KEY": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    },
+    "OPENAI_MODEL": {
+      "current_process": "missing",
+      "local_backend_env": "present_unverified"
+    },
+    "QDRANT_URL": {
+      "current_process": "missing",
+      "local_backend_env": "empty"
+    },
+    "QDRANT_API": {
+      "current_process": "missing",
+      "local_backend_env": "empty"
+    },
+    "QDRANT_COLLECTION": {
+      "current_process": "missing",
+      "local_backend_env": "present_unverified"
+    },
+    "CLIP_MODEL": {
+      "current_process": "missing",
+      "local_backend_env": "present_unverified"
+    },
+    "CORS_ORIGINS": {
+      "current_process": "missing",
+      "local_backend_env": "empty"
+    },
+    "HF_TOKEN": {
+      "current_process": "missing",
+      "local_backend_env": "empty"
+    },
+    "PYTHON_VERSION": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    },
+    "HF_HOME": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    },
+    "PORT": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    },
+    "API_REQUESTS_PER_MINUTE": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    },
+    "API_MAX_INFLIGHT": {
+      "current_process": "missing",
+      "local_backend_env": "missing"
+    }
+  },
+  "cloud_environment": "not accessible: no connected Render/Firebase account tools; public endpoints cannot reveal secret configuration"
+}

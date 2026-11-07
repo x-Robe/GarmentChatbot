@@ -1,0 +1,1008 @@
+{
+  "started_at_utc": "2026-10-26T19:20:05.759428+00:00",
+  "model": "patrickjohncyh/fashion-clip",
+  "collection": "tshirt_images",
+  "catalog_points": 1993,
+  "top_k": 5,
+  "source_exclusion": "All point IDs belonging to the source product or identical source path; applied to retrieval AND v2 candidate counts.",
+  "primary_queries": 10,
+  "planned_runs": 13,
+  "references": {
+    "data/images/tshirt/941.jpg": {
+      "sha256": "5884b889a1ad5f3098b5efb289bfe6a06e397936a6460cc0263e74ab20445dfa",
+      "embedding_sha256": "dcf184e993966e75978a693ec0baf98fb4135b6d2e92f7546f8d81fd9bd46193",
+      "dimension": 512,
+      "source_product_ids": [
+        "941"
+      ],
+      "excluded_point_ids": [
+        "9b6fcb24-391b-52ec-b5b4-e8154814747e"
+      ],
+      "analysis": {
+        "colors": {
+          "label": "white",
+          "score": 0.34978294372558594,
+          "runner_up": "multicolor",
+          "runner_up_score": 0.26871514320373535,
+          "margin": 0.08106780052185059
+        },
+        "patterns": {
+          "label": "plain",
+          "score": 0.34364357590675354,
+          "runner_up": "printed",
+          "runner_up_score": 0.3022545576095581,
+          "margin": 0.041389018297195435
+        },
+        "neckline": {
+          "label": "v-neck",
+          "score": 0.34416937828063965,
+          "runner_up": "round neck",
+          "runner_up_score": 0.3399564027786255,
+          "margin": 0.00421297550201416
+        },
+        "sleeve": {
+          "label": "short sleeve",
+          "score": 0.3368736505508423,
+          "runner_up": "cap sleeve",
+          "runner_up_score": 0.327175498008728,
+          "margin": 0.009698152542114258
+        },
+        "style": {
+          "label": "minimalist",
+          "score": 0.3411734402179718,
+          "runner_up": "slim fit",
+          "runner_up_score": 0.3410451114177704,
+          "margin": 0.00012832880020141602
+        },
+        "buttons": {
+          "label": "without visible buttons",
+          "score": 0.34965479373931885,
+          "runner_up": "with visible buttons",
+          "runner_up_score": 0.3314555287361145,
+          "margin": 0.018199265003204346
+        }
+      }
+    },
+    "data/images/tshirt/635.jpg": {
+      "sha256": "36a7b1bad7908393baca46d169977504e87885f84d2b6759e41578b9712cc051",
+      "embedding_sha256": "52b9875a59a19da88a139547501da192970bdf8a89b509946bf923f4e8cc46ea",
+      "dimension": 512,
+      "source_product_ids": [
+        "635"
+      ],
+      "excluded_point_ids": [
+        "1b3e52e9-41d9-54e0-9770-3040dffb4dbf"
+      ],
+      "analysis": {
+        "colors": {
+          "label": "navy blue",
+          "score": 0.316552996635437,
+          "runner_up": "black",
+          "runner_up_score": 0.3152199387550354,
+          "margin": 0.0013330578804016113
+        },
+        "patterns": {
+          "label": "graphic print",
+          "score": 0.34399110078811646,
+          "runner_up": "printed",
+          "runner_up_score": 0.338741272687912,
+          "margin": 0.005249828100204468
+        },
+        "neckline": {
+          "label": "mock neck",
+          "score": 0.313473641872406,
+          "runner_up": "crew neck",
+          "runner_up_score": 0.3088725805282593,
+          "margin": 0.0046010613441467285
+        },
+        "sleeve": {
+          "label": "short sleeve",
+          "score": 0.3126600682735443,
+          "runner_up": "cap sleeve",
+          "runner_up_score": 0.2678593397140503,
+          "margin": 0.04480072855949402
+        },
+        "style": {
+          "label": "streetwear",
+          "score": 0.3393518924713135,
+          "runner_up": "sportswear",
+          "runner_up_score": 0.3326351046562195,
+          "margin": 0.006716787815093994
+        },
+        "buttons": {
+          "label": "without visible buttons",
+          "score": 0.3028368353843689,
+          "runner_up": "with visible buttons",
+          "runner_up_score": 0.2891179621219635,
+          "margin": 0.013718873262405396
+        }
+      }
+    },
+    "data/images/tshirt/442.jpg": {
+      "sha256": "fbb156ed210c6cc69248f25ff1f16db6aeb5509a1d0a947dc7fe6bfd13fa4f92",
+      "embedding_sha256": "0216372d566b277fc113b137d898713f12e96f67e03899aa34a8ca928d1a0bff",
+      "dimension": 512,
+      "source_product_ids": [
+        "442"
+      ],
+      "excluded_point_ids": [
+        "0a2419a8-e59c-5785-a5e3-2cefab58727e"
+      ],
+      "analysis": {
+        "colors": {
+          "label": "multicolor",
+          "score": 0.3361562192440033,
+          "runner_up": "green",
+          "runner_up_score": 0.31196722388267517,
+          "margin": 0.024188995361328125
+        },
+        "patterns": {
+          "label": "color block",
+          "score": 0.34260988235473633,
+          "runner_up": "plain",
+          "runner_up_score": 0.3197445869445801,
+          "margin": 0.02286529541015625
+        },
+        "neckline": {
+          "label": "mock neck",
+          "score": 0.3268663287162781,
+          "runner_up": "round neck",
+          "runner_up_score": 0.3239186406135559,
+          "margin": 0.002947688102722168
+        },
+        "sleeve": {
+          "label": "three-quarter sleeve",
+          "score": 0.34409546852111816,
+          "runner_up": "short sleeve",
+          "runner_up_score": 0.3278304636478424,
+          "margin": 0.016265004873275757
+        },
+        "style": {
+          "label": "oversized",
+          "score": 0.34122806787490845,
+          "runner_up": "casual",
+          "runner_up_score": 0.3226931691169739,
+          "margin": 0.01853489875793457
+        },
+        "buttons": {
+          "label": "without visible buttons",
+          "score": 0.3025575280189514,
+          "runner_up": "with visible buttons",
+          "runner_up_score": 0.29063326120376587,
+          "margin": 0.011924266815185547
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "query_id": "T1",
+      "variant": "text",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "not_applicable",
+      "error_type": "",
+      "resolved_query": "black T-shirts",
+      "strategy": "exact"
+    },
+    {
+      "query_id": "T2",
+      "variant": "text",
+      "status": "ok",
+      "returned_count": 0,
+      "source_excluded": "not_applicable",
+      "error_type": "",
+      "resolved_query": "white graphic short-sleeve T-shirts",
+      "strategy": "exact"
+    },
+    {
+      "query_id": "T3",
+      "variant": "text",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "not_applicable",
+      "error_type": "",
+      "resolved_query": "Japanese streetwear graphic T-shirts",
+      "strategy": "similar"
+    },
+    {
+      "query_id": "T4",
+      "variant": "text",
+      "status": "ok",
+      "returned_count": 2,
+      "source_excluded": "not_applicable",
+      "error_type": "",
+      "resolved_query": "red striped long-sleeve T-shirts",
+      "strategy": "exact"
+    },
+    {
+      "query_id": "I1",
+      "variant": "v1",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "filters_used": {},
+      "strategy": "pure_visual"
+    },
+    {
+      "query_id": "I1",
+      "variant": "v2",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "white",
+            "score": 0.34978294372558594,
+            "runner_up": "multicolor",
+            "runner_up_score": 0.26871514320373535,
+            "margin": 0.08106780052185059,
+            "used_for_filter": true
+          },
+          "patterns": {
+            "label": "plain",
+            "score": 0.34364357590675354,
+            "runner_up": "printed",
+            "runner_up_score": 0.3022545576095581,
+            "margin": 0.041389018297195435,
+            "used_for_filter": true
+          },
+          "neckline": {
+            "label": "v-neck",
+            "score": 0.34416937828063965,
+            "runner_up": "round neck",
+            "runner_up_score": 0.3399564027786255,
+            "margin": 0.00421297550201416,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "short sleeve",
+            "score": 0.3368736505508423,
+            "runner_up": "cap sleeve",
+            "runner_up_score": 0.327175498008728,
+            "margin": 0.009698152542114258,
+            "used_for_filter": false
+          },
+          "style": {
+            "label": "minimalist",
+            "score": 0.3411734402179718,
+            "runner_up": "slim fit",
+            "runner_up_score": 0.3410451114177704,
+            "margin": 0.00012832880020141602,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.34965479373931885,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.3314555287361145,
+            "margin": 0.018199265003204346,
+            "used_for_filter": false
+          }
+        },
+        "filters_used": {
+          "colors": "white",
+          "patterns": "plain"
+        },
+        "strategy": "attribute_guided_visual",
+        "candidate_count": 189
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "colors",
+            "margin": 0.08106780052185059
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.041389018297195435
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.018199265003204346
+          },
+          {
+            "attribute": "sleeve",
+            "margin": 0.009698152542114258
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.00421297550201416
+          },
+          {
+            "attribute": "style",
+            "margin": 0.00012832880020141602
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "colors": "white"
+            },
+            "candidate_count": 416,
+            "decision": "accepted"
+          },
+          {
+            "filters": {
+              "colors": "white",
+              "patterns": "plain"
+            },
+            "candidate_count": 189,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 189,
+        "final_filters": {
+          "colors": "white",
+          "patterns": "plain"
+        },
+        "final_result_count": 5
+      }
+    },
+    {
+      "query_id": "I2",
+      "variant": "v1",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "filters_used": {},
+      "strategy": "pure_visual"
+    },
+    {
+      "query_id": "I2",
+      "variant": "v2",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "navy blue",
+            "score": 0.316552996635437,
+            "runner_up": "black",
+            "runner_up_score": 0.3152199387550354,
+            "margin": 0.0013330578804016113,
+            "used_for_filter": false
+          },
+          "patterns": {
+            "label": "graphic print",
+            "score": 0.34399110078811646,
+            "runner_up": "printed",
+            "runner_up_score": 0.338741272687912,
+            "margin": 0.005249828100204468,
+            "used_for_filter": false
+          },
+          "neckline": {
+            "label": "mock neck",
+            "score": 0.313473641872406,
+            "runner_up": "crew neck",
+            "runner_up_score": 0.3088725805282593,
+            "margin": 0.0046010613441467285,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "short sleeve",
+            "score": 0.3126600682735443,
+            "runner_up": "cap sleeve",
+            "runner_up_score": 0.2678593397140503,
+            "margin": 0.04480072855949402,
+            "used_for_filter": true
+          },
+          "style": {
+            "label": "streetwear",
+            "score": 0.3393518924713135,
+            "runner_up": "sportswear",
+            "runner_up_score": 0.3326351046562195,
+            "margin": 0.006716787815093994,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.3028368353843689,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.2891179621219635,
+            "margin": 0.013718873262405396,
+            "used_for_filter": false
+          }
+        },
+        "filters_used": {
+          "sleeve": "short sleeve"
+        },
+        "strategy": "attribute_guided_visual",
+        "candidate_count": 1508
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "sleeve",
+            "margin": 0.04480072855949402
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.013718873262405396
+          },
+          {
+            "attribute": "style",
+            "margin": 0.006716787815093994
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.005249828100204468
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.0046010613441467285
+          },
+          {
+            "attribute": "colors",
+            "margin": 0.0013330578804016113
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "sleeve": "short sleeve"
+            },
+            "candidate_count": 1508,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 1508,
+        "final_filters": {
+          "sleeve": "short sleeve"
+        },
+        "final_result_count": 5
+      }
+    },
+    {
+      "query_id": "I3",
+      "variant": "v1",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "filters_used": {},
+      "strategy": "pure_visual"
+    },
+    {
+      "query_id": "I3",
+      "variant": "v2",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "multicolor",
+            "score": 0.3361562192440033,
+            "runner_up": "green",
+            "runner_up_score": 0.31196722388267517,
+            "margin": 0.024188995361328125,
+            "used_for_filter": true
+          },
+          "patterns": {
+            "label": "color block",
+            "score": 0.34260988235473633,
+            "runner_up": "plain",
+            "runner_up_score": 0.3197445869445801,
+            "margin": 0.02286529541015625,
+            "used_for_filter": true
+          },
+          "neckline": {
+            "label": "mock neck",
+            "score": 0.3268663287162781,
+            "runner_up": "round neck",
+            "runner_up_score": 0.3239186406135559,
+            "margin": 0.002947688102722168,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "three-quarter sleeve",
+            "score": 0.34409546852111816,
+            "runner_up": "short sleeve",
+            "runner_up_score": 0.3278304636478424,
+            "margin": 0.016265004873275757,
+            "used_for_filter": false
+          },
+          "style": {
+            "label": "oversized",
+            "score": 0.34122806787490845,
+            "runner_up": "casual",
+            "runner_up_score": 0.3226931691169739,
+            "margin": 0.01853489875793457,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.3025575280189514,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.29063326120376587,
+            "margin": 0.011924266815185547,
+            "used_for_filter": false
+          }
+        },
+        "filters_used": {
+          "colors": "multicolor",
+          "patterns": "color block"
+        },
+        "strategy": "attribute_guided_visual",
+        "candidate_count": 87
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "colors",
+            "margin": 0.024188995361328125
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.02286529541015625
+          },
+          {
+            "attribute": "style",
+            "margin": 0.01853489875793457
+          },
+          {
+            "attribute": "sleeve",
+            "margin": 0.016265004873275757
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.011924266815185547
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.002947688102722168
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "colors": "multicolor"
+            },
+            "candidate_count": 398,
+            "decision": "accepted"
+          },
+          {
+            "filters": {
+              "colors": "multicolor",
+              "patterns": "color block"
+            },
+            "candidate_count": 87,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 87,
+        "final_filters": {
+          "colors": "multicolor",
+          "patterns": "color block"
+        },
+        "final_result_count": 5
+      }
+    },
+    {
+      "query_id": "M1",
+      "variant": "image_text",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "text_analysis": {
+        "intent": "modify",
+        "overrides": {
+          "colors": [
+            "black"
+          ]
+        },
+        "unsupported_text": [],
+        "result_count": null
+      },
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "white",
+            "score": 0.34978294372558594,
+            "runner_up": "multicolor",
+            "runner_up_score": 0.26871514320373535,
+            "margin": 0.08106780052185059,
+            "used_for_filter": false
+          },
+          "patterns": {
+            "label": "plain",
+            "score": 0.34364357590675354,
+            "runner_up": "printed",
+            "runner_up_score": 0.3022545576095581,
+            "margin": 0.041389018297195435,
+            "used_for_filter": true
+          },
+          "neckline": {
+            "label": "v-neck",
+            "score": 0.34416937828063965,
+            "runner_up": "round neck",
+            "runner_up_score": 0.3399564027786255,
+            "margin": 0.00421297550201416,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "short sleeve",
+            "score": 0.3368736505508423,
+            "runner_up": "cap sleeve",
+            "runner_up_score": 0.327175498008728,
+            "margin": 0.009698152542114258,
+            "used_for_filter": false
+          },
+          "style": {
+            "label": "minimalist",
+            "score": 0.3411734402179718,
+            "runner_up": "slim fit",
+            "runner_up_score": 0.3410451114177704,
+            "margin": 0.00012832880020141602,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.34965479373931885,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.3314555287361145,
+            "margin": 0.018199265003204346,
+            "used_for_filter": true
+          }
+        },
+        "filters_used": {
+          "colors": [
+            "black"
+          ],
+          "patterns": "plain",
+          "buttons": false
+        },
+        "strategy": "image_with_attribute_override",
+        "candidate_count": 176
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "colors",
+            "margin": 0.08106780052185059
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.041389018297195435
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.018199265003204346
+          },
+          {
+            "attribute": "sleeve",
+            "margin": 0.009698152542114258
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.00421297550201416
+          },
+          {
+            "attribute": "style",
+            "margin": 0.00012832880020141602
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "colors": [
+                "black"
+              ],
+              "patterns": "plain"
+            },
+            "candidate_count": 195,
+            "decision": "accepted"
+          },
+          {
+            "filters": {
+              "colors": [
+                "black"
+              ],
+              "patterns": "plain",
+              "buttons": false
+            },
+            "candidate_count": 176,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 176,
+        "final_filters": {
+          "colors": [
+            "black"
+          ],
+          "patterns": "plain",
+          "buttons": false
+        },
+        "final_result_count": 5
+      }
+    },
+    {
+      "query_id": "M2",
+      "variant": "image_text",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "text_analysis": {
+        "intent": "modify",
+        "overrides": {
+          "sleeve": [
+            "long sleeve"
+          ]
+        },
+        "unsupported_text": [],
+        "result_count": null
+      },
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "white",
+            "score": 0.34978294372558594,
+            "runner_up": "multicolor",
+            "runner_up_score": 0.26871514320373535,
+            "margin": 0.08106780052185059,
+            "used_for_filter": true
+          },
+          "patterns": {
+            "label": "plain",
+            "score": 0.34364357590675354,
+            "runner_up": "printed",
+            "runner_up_score": 0.3022545576095581,
+            "margin": 0.041389018297195435,
+            "used_for_filter": true
+          },
+          "neckline": {
+            "label": "v-neck",
+            "score": 0.34416937828063965,
+            "runner_up": "round neck",
+            "runner_up_score": 0.3399564027786255,
+            "margin": 0.00421297550201416,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "short sleeve",
+            "score": 0.3368736505508423,
+            "runner_up": "cap sleeve",
+            "runner_up_score": 0.327175498008728,
+            "margin": 0.009698152542114258,
+            "used_for_filter": false
+          },
+          "style": {
+            "label": "minimalist",
+            "score": 0.3411734402179718,
+            "runner_up": "slim fit",
+            "runner_up_score": 0.3410451114177704,
+            "margin": 0.00012832880020141602,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.34965479373931885,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.3314555287361145,
+            "margin": 0.018199265003204346,
+            "used_for_filter": false
+          }
+        },
+        "filters_used": {
+          "sleeve": [
+            "long sleeve"
+          ],
+          "colors": "white",
+          "patterns": "plain"
+        },
+        "strategy": "image_with_attribute_override",
+        "candidate_count": 34
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "colors",
+            "margin": 0.08106780052185059
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.041389018297195435
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.018199265003204346
+          },
+          {
+            "attribute": "sleeve",
+            "margin": 0.009698152542114258
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.00421297550201416
+          },
+          {
+            "attribute": "style",
+            "margin": 0.00012832880020141602
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "sleeve": [
+                "long sleeve"
+              ],
+              "colors": "white"
+            },
+            "candidate_count": 70,
+            "decision": "accepted"
+          },
+          {
+            "filters": {
+              "sleeve": [
+                "long sleeve"
+              ],
+              "colors": "white",
+              "patterns": "plain"
+            },
+            "candidate_count": 34,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 34,
+        "final_filters": {
+          "sleeve": [
+            "long sleeve"
+          ],
+          "colors": "white",
+          "patterns": "plain"
+        },
+        "final_result_count": 5
+      }
+    },
+    {
+      "query_id": "M3",
+      "variant": "image_text",
+      "status": "ok",
+      "returned_count": 5,
+      "source_excluded": "true",
+      "error_type": "",
+      "text_analysis": {
+        "intent": "modify",
+        "overrides": {
+          "patterns": [
+            "plain"
+          ]
+        },
+        "unsupported_text": [],
+        "result_count": null
+      },
+      "image_analysis": {
+        "attributes": {
+          "colors": {
+            "label": "navy blue",
+            "score": 0.316552996635437,
+            "runner_up": "black",
+            "runner_up_score": 0.3152199387550354,
+            "margin": 0.0013330578804016113,
+            "used_for_filter": false
+          },
+          "patterns": {
+            "label": "graphic print",
+            "score": 0.34399110078811646,
+            "runner_up": "printed",
+            "runner_up_score": 0.338741272687912,
+            "margin": 0.005249828100204468,
+            "used_for_filter": false
+          },
+          "neckline": {
+            "label": "mock neck",
+            "score": 0.313473641872406,
+            "runner_up": "crew neck",
+            "runner_up_score": 0.3088725805282593,
+            "margin": 0.0046010613441467285,
+            "used_for_filter": false
+          },
+          "sleeve": {
+            "label": "short sleeve",
+            "score": 0.3126600682735443,
+            "runner_up": "cap sleeve",
+            "runner_up_score": 0.2678593397140503,
+            "margin": 0.04480072855949402,
+            "used_for_filter": true
+          },
+          "style": {
+            "label": "streetwear",
+            "score": 0.3393518924713135,
+            "runner_up": "sportswear",
+            "runner_up_score": 0.3326351046562195,
+            "margin": 0.006716787815093994,
+            "used_for_filter": false
+          },
+          "buttons": {
+            "label": "without visible buttons",
+            "score": 0.3028368353843689,
+            "runner_up": "with visible buttons",
+            "runner_up_score": 0.2891179621219635,
+            "margin": 0.013718873262405396,
+            "used_for_filter": false
+          }
+        },
+        "filters_used": {
+          "patterns": [
+            "plain"
+          ],
+          "sleeve": "short sleeve"
+        },
+        "strategy": "image_with_attribute_override",
+        "candidate_count": 806
+      },
+      "diagnostics": {
+        "target_candidates": 20,
+        "ordered_margins": [
+          {
+            "attribute": "sleeve",
+            "margin": 0.04480072855949402
+          },
+          {
+            "attribute": "buttons",
+            "margin": 0.013718873262405396
+          },
+          {
+            "attribute": "style",
+            "margin": 0.006716787815093994
+          },
+          {
+            "attribute": "patterns",
+            "margin": 0.005249828100204468
+          },
+          {
+            "attribute": "neckline",
+            "margin": 0.0046010613441467285
+          },
+          {
+            "attribute": "colors",
+            "margin": 0.0013330578804016113
+          }
+        ],
+        "attempts": [
+          {
+            "filters": {
+              "patterns": [
+                "plain"
+              ],
+              "sleeve": "short sleeve"
+            },
+            "candidate_count": 806,
+            "decision": "accepted"
+          }
+        ],
+        "relaxations": [],
+        "candidate_availability": 806,
+        "final_filters": {
+          "patterns": [
+            "plain"
+          ],
+          "sleeve": "short sleeve"
+        },
+        "final_result_count": 5
+      }
+    }
+  ],
+  "completed_at_utc": "2026-10-26T19:20:30.517101+00:00",
+  "unique_returned_products": 45
+}

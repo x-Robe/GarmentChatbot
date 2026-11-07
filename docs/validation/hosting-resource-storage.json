@@ -1,0 +1,16 @@
+{
+  "catalog_jpeg_count": 1993,
+  "catalog_logical_bytes": 378919404,
+  "frontend_all_files_bytes": 145038,
+  "venv_logical_bytes": 1313413024,
+  "model_caches": [
+    {
+      "model_cache_name": "models--patrickjohncyh--fashion-clip",
+      "blob_bytes": 608774652
+    },
+    {
+      "model_cache_name": "models--sentence-transformers--all-MiniLM-L6-v2",
+      "blob_bytes": 91578415
+    }
+  ]
+}

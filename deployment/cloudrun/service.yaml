@@ -1,0 +1,49 @@
+# Template only. Replace IMAGE_DIGEST, RUNTIME_SERVICE_ACCOUNT and secret versions.
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: garmentchatbot-cloud
+  labels:
+    cloud.googleapis.com/location: asia-east2
+spec:
+  template:
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: '0'
+        autoscaling.knative.dev/maxScale: '1'
+        run.googleapis.com/cpu-throttling: 'true'
+        run.googleapis.com/startup-cpu-boost: 'false'
+        run.googleapis.com/execution-environment: gen2
+    spec:
+      serviceAccountName: RUNTIME_SERVICE_ACCOUNT
+      containerConcurrency: 1
+      timeoutSeconds: 180
+      containers:
+        - image: IMAGE_DIGEST
+          ports:
+            - containerPort: 8080
+          resources:
+            limits:
+              cpu: '1'
+              memory: 4Gi
+          startupProbe:
+            httpGet:
+              path: /api/health
+              port: 8080
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 48
+          env:
+            - name: POE_API
+              valueFrom:
+                secretKeyRef:
+                  name: garmentchatbot-poe
+                  key: SECRET_VERSION
+            - name: QDRANT_API
+              valueFrom:
+                secretKeyRef:
+                  name: garmentchatbot-qdrant
+                  key: SECRET_VERSION
+            # Nonsecret URL/model/collection settings injected from private .env.cloudrun.
+            - name: CORS_ORIGINS
+              value: https://garmentchatbot.web.app,https://garmentchatbot.firebaseapp.com

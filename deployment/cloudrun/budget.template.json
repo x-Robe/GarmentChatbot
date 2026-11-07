@@ -1,0 +1,11 @@
+{
+  "displayName": "GarmentChatbot monthly alert (not a spending cap)",
+  "budgetFilter": {"projects": ["projects/82060025056"], "calendarPeriod": "MONTH"},
+  "amount": {"specifiedAmount": {"currencyCode": "USD", "units": "1"}},
+  "thresholdRules": [
+    {"thresholdPercent": 0.5},
+    {"thresholdPercent": 0.9},
+    {"thresholdPercent": 1.0},
+    {"thresholdPercent": 1.0, "spendBasis": "FORECASTED_SPEND"}
+  ]
+}

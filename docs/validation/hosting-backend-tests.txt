@@ -1,0 +1,148 @@
+............Product tool exact_match_products failed (RuntimeError)
+.........memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: request failed
+GarmentAgent request failed (RuntimeError)
+.....memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=agent: before chatbot import
+memory measurement unavailable at stage=agent: after chatbot import
+memory measurement unavailable at stage=agent: before GarmentAgent constructor
+memory measurement unavailable at stage=agent: initialization failed
+GarmentAgent initialization failed (RuntimeError)
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=agent: before chatbot import
+memory measurement unavailable at stage=agent: after chatbot import
+memory measurement unavailable at stage=agent: before GarmentAgent constructor
+memory measurement unavailable at stage=agent: after GarmentAgent constructor
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: request failed
+GarmentAgent request failed (ValidationError)
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+...memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+..memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+..memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+.memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before agent creation
+memory measurement unavailable at stage=chat: after agent creation
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+..Image search failed (RuntimeError)
+.........memory measurement unavailable at stage=agent: before chatbot import
+memory measurement unavailable at stage=agent: after chatbot import
+memory measurement unavailable at stage=agent: before GarmentAgent constructor
+memory measurement unavailable at stage=agent: after GarmentAgent constructor
+..........Image search failed (RuntimeError)
+...........................Attribute extraction unavailable; preserving semantic query (JSONDecodeError)
+Attribute extraction unavailable; preserving semantic query (ValueError)
+Attribute extraction unavailable; preserving semantic query (ValueError)
+.Attribute extraction unavailable; preserving semantic query (BadRequestError)
+...........Product tool exact_match_products failed (RuntimeError)
+.....memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+..............................memory measurement unavailable at stage=chat: before lock
+memory measurement unavailable at stage=chat: acquired lock
+memory measurement unavailable at stage=chat: before respond
+memory measurement unavailable at stage=chat: after respond
+memory measurement unavailable at stage=chat: before return
+..........................
+----------------------------------------------------------------------
+Ran 160 tests in 1.082s
+
+OK

@@ -1,0 +1,27 @@
+# Deny by default, including secrets, history, OAuth state and rollback runtime.
+**
+!Dockerfile
+!backend/
+!backend/api.py
+!backend/chatbot.py
+!backend/SKILL.md
+!backend/src/
+!backend/src/*.py
+!backend/data/
+!backend/data/samples/
+!backend/data/samples/*.json
+!data/
+!data/images/
+!data/images/**
+!deployment/
+!deployment/cloudrun/
+!deployment/cloudrun/*.py
+!deployment/cloudrun/*.json
+!deployment/cloudrun/*.txt
+!.cloudrun-models/
+!.cloudrun-models/**
+**/.env
+**/.env.*
+**/__pycache__/**
+**/*.pyc
+**/.DS_Store

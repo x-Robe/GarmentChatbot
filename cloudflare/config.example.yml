@@ -1,0 +1,8 @@
+# Optional EXISTING locally-managed named tunnel. Copy to config.local.yml (ignored).
+# Do not place actual tunnel credentials/cert.pem in Git or frontend.
+tunnel: YOUR_EXISTING_TUNNEL_UUID
+credentials-file: /absolute/private/path/YOUR_EXISTING_TUNNEL_UUID.json
+ingress:
+  - hostname: api.YOUR_OWN_DOMAIN
+    service: http://127.0.0.1:8765
+  - service: http_status:404

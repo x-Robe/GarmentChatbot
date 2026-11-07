@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-07",
+  "frontend_http": 200,
+  "backend_health_http": 200,
+  "backend_expected_health_json": true,
+  "cloud_account_access": false,
+  "live_llm_or_qdrant_request": false,
+  "deployment_or_external_mutation": false
+}

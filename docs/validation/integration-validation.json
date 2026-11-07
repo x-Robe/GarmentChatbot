@@ -1,0 +1,58 @@
+{
+  "base_main": "58d5f4afaafd7fb65da4ec1876a9e9113be3278f",
+  "branch": "feature/complete-garmentchatbot",
+  "catalog_count": 1993,
+  "catalog_bytes": 378919404,
+  "all_catalog_sha256_match_main_and_release_manifest": true,
+  "duplicated_backend_catalog": false,
+  "frontend_files_identical_to_release": true,
+  "protected_prompt_encoder_classifier_extractor_strategy_identical": true,
+  "path_only_source_differences_from_release": [
+    "backend/api.py",
+    "backend/scripts/validate_hybrid_image_search.py",
+    "backend/scripts/validate_image_context.py",
+    "backend/scripts/validate_image_search.py",
+    "backend/scripts/validate_image_text.py",
+    "backend/src/ingest_product.py",
+    "backend/src/product_search.py",
+    "evaluation/run_evaluation.py"
+  ],
+  "release_evaluation_csvs_unchanged": true,
+  "deleted_original_paths": 35,
+  "secret_scan_nonimage_files": 117,
+  "secret_scan_findings": [],
+  "historical_credential_exposure": "Still in preserved parent history; owner rotation/remediation required. Not scanned as clean current content.",
+  "original_workspace_files_unchanged": 2177,
+  "original_release_files_unchanged": 102,
+  "original_git_states_unchanged": true,
+  "frontend_tests_pass": 103,
+  "backend_tests_pass": 160,
+  "paid_llm_calls": 0,
+  "hosted_qdrant_queries_or_writes": 0,
+  "github_connected_account_push_permission": false,
+  "remote_push_performed": false,
+  "pull_request_created": false,
+  "main_untouched": true,
+  "catalog_staged_git_blobs_modes_paths_identical": true,
+  "image_http_smoke": {
+    "health_status": 200,
+    "image_941_status": 200,
+    "image_941_bytes": 74026,
+    "image_941_content_matches": true
+  },
+  "browser_image_component_smoke": {
+    "real_jpegs_loaded": 5,
+    "all_loaded_with_nonzero_natural_width": true,
+    "carousel_next_and_details": true,
+    "data_source": "saved evaluation records; not live search",
+    "fixture_routes_production_files_changed": false,
+    "temporary_server_stopped": true
+  },
+  "staged_diff": {
+    "added": 111,
+    "modified": 1,
+    "deleted": 35,
+    "catalog_path_changes": 0
+  },
+  "whitespace_check": "Passed with cr-at-eol and blank-at-eof compatibility for preserved release CRLF CSVs and existing source EOF; no source formatting changes"
+}

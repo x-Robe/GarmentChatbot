@@ -1,0 +1,14 @@
+# Run only after billing/resource approval; use the prepared allowlisted context.
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --platform=linux/amd64
+      - --tag=${_IMAGE}
+      - .
+images:
+  - ${_IMAGE}
+timeout: 1200s
+options:
+  # Default pool e2-standard-2; do not select a higher-cost machine.
+  logging: CLOUD_LOGGING_ONLY
